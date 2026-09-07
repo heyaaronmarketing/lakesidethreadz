@@ -480,6 +480,14 @@
   thumbs.forEach(t => t.addEventListener('click', () => setShot(t.dataset.shot)));
   tiles.forEach(t  => t.addEventListener('click', () => { userPicked = true; setSchool(t, 'manual'); }));
 
+  // URL ?school=<slug> wins over geo — used by /schools/<slug>/ landing pages
+  // so a booster who clicks through from their team's page lands on that team.
+  const urlSchool = new URLSearchParams(window.location.search).get('school');
+  if (urlSchool) {
+    const forced = tiles.find(t => t.dataset.slug === urlSchool);
+    if (forced) { userPicked = true; setSchool(forced, 'manual'); }
+  }
+
   // Haversine (mi)
   function distMi(a, b, c, d) {
     const R = 3958.8, r = x => x * Math.PI / 180;
