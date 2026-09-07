@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Livingston Lions Gear &middot; Lakeside Ink &amp; Threadz</title>
+  <meta name="description" content="Custom Lions apparel &mdash; hats, tees, hoodies, polos, dad hats, and beanies. Made in Livingston, TX by Kristen at Lakeside Ink &amp; Threadz.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Nunito:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <style>
+    :root { --sc-primary: #14532D; --sc-accent: #FFFFFF; --sc-text: #FFFFFF; }
+    
+    :root {
+      --lit-blue:#001E78; --lit-blue-2:#0033AA;
+      --lit-orange:#F09600; --lit-flame:#F05A3C; --lit-pink:#E10078;
+      --ink:#0F1428; --ink-soft:#3F4560; --muted:#8A8FA0;
+      --ground:#FAFAF7; --surface:#FFFFFF; --surface-alt:#F3F1EA;
+      --hairline:#E4E1D7;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior:smooth; }
+    html, body { margin:0; padding:0; }
+    body { font-family:'Nunito', system-ui, -apple-system, sans-serif; color:var(--ink); background:var(--ground); -webkit-font-smoothing:antialiased; overflow-x:hidden; }
+    a { color: var(--lit-blue); }
+    img { max-width:100%; display:block; }
+
+    /* Nav */
+    .lit-nav { position:sticky; top:0; z-index:40; background:rgba(255,255,255,.96); backdrop-filter:blur(8px); border-bottom:1px solid #eef0f6; }
+    .lit-nav-inner { max-width:1240px; margin:0 auto; padding:.9rem 1.25rem; display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+    .lit-brand { display:flex; align-items:center; gap:.65rem; text-decoration:none; color:var(--lit-blue); font-weight:800; font-size:1.05rem; }
+    .lit-brand img { height:34px; width:auto; }
+    .lit-links { display:none; gap:1.4rem; align-items:center; }
+    .lit-links a { color:#111827; text-decoration:none; font-weight:600; font-size:.95rem; }
+    .lit-links a:hover { color:var(--lit-blue); }
+    .lit-cta-nav { background:linear-gradient(90deg,var(--lit-orange),var(--lit-flame) 55%,var(--lit-pink)); color:#fff !important; padding:.55rem 1rem; border-radius:.6rem; font-weight:700 !important; box-shadow:0 6px 14px rgba(240,90,60,.25); }
+    @media (min-width:900px) { .lit-links { display:flex; } }
+
+    .crumbs { max-width:1240px; margin:0 auto; padding:1rem 1.25rem 0; font-size:12px; color:var(--muted); letter-spacing:.02em; }
+    .crumbs a { color:var(--muted); text-decoration:none; }
+    .crumbs a:hover { color:var(--lit-blue); }
+
+    /* Hero — full-bleed school-color band */
+    .school-hero { background:var(--sc-primary); color:var(--sc-text); padding:3rem 1.25rem 3.25rem; position:relative; overflow:hidden; }
+    .school-hero::before { content:""; position:absolute; inset:0; background:radial-gradient(circle at 20% 20%, rgba(255,255,255,.08) 0%, transparent 45%); pointer-events:none; }
+    .school-hero-inner { max-width:1240px; margin:0 auto; position:relative; display:grid; gap:1.5rem; align-items:center; }
+    @media (min-width:900px) { .school-hero-inner { grid-template-columns:minmax(0,1.35fr) minmax(0,1fr); gap:3rem; } }
+    .school-hero .eyebrow { display:inline-flex; align-items:center; gap:8px; font-size:11px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; opacity:.85; margin-bottom:.9rem; }
+    .school-hero .eyebrow::before { content:""; width:20px; height:2px; background:currentColor; }
+    .school-hero h1 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:clamp(2.6rem,6.5vw,4.75rem); line-height:.95; letter-spacing:.005em; margin:0 0 .75rem; color:var(--sc-text); }
+    .school-hero .tagline { font-size:clamp(1rem,1.5vw,1.15rem); line-height:1.55; opacity:.92; max-width:520px; margin:0 0 1.6rem; }
+    .school-hero .hero-ctas { display:flex; flex-wrap:wrap; gap:.75rem; }
+    .school-hero .cta-primary { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; background:linear-gradient(90deg,var(--lit-orange),var(--lit-flame) 55%,var(--lit-pink)); color:#fff; border:none; padding:14px 26px; font:inherit; font-weight:800; font-size:15px; border-radius:999px; cursor:pointer; box-shadow:0 8px 22px -6px rgba(240,150,0,.55); transition:transform .1s, box-shadow .15s; letter-spacing:.02em; text-decoration:none; }
+    .school-hero .cta-primary:hover { transform:translateY(-1px); box-shadow:0 12px 28px -6px rgba(240,90,60,.6); }
+    .school-hero .cta-ghost { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; background:rgba(255,255,255,.12); color:var(--sc-text); border:1.5px solid rgba(255,255,255,.35); padding:12px 22px; font:inherit; font-weight:700; font-size:14px; border-radius:999px; text-decoration:none; transition:background .15s; }
+    .school-hero .cta-ghost:hover { background:rgba(255,255,255,.2); }
+    .school-hero .hero-card { background:rgba(255,255,255,.98); border-radius:16px; padding:.75rem; box-shadow:0 24px 60px -20px rgba(0,0,0,.35); }
+    .school-hero .hero-card img { aspect-ratio:3/2; width:100%; object-fit:contain; border-radius:10px; background:linear-gradient(180deg,#FFFFFF 0%,#F5F3EC 100%); }
+
+    /* Featured trucker section */
+    .featured { max-width:1240px; margin:0 auto; padding:3rem 1.25rem 1rem; }
+    .featured-head { display:grid; gap:.4rem; margin-bottom:1.5rem; }
+    @media (min-width:800px) { .featured-head { grid-template-columns:1fr auto; align-items:end; gap:1rem; } }
+    .featured-head h2 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:clamp(1.8rem,3.2vw,2.4rem); letter-spacing:.005em; margin:0; color:var(--ink); line-height:1.05; }
+    .featured-head p { margin:.2rem 0 0; font-size:1rem; color:var(--ink-soft); line-height:1.55; max-width:600px; }
+    .featured-head .pill { display:inline-flex; align-items:center; gap:6px; padding:6px 12px; background:var(--sc-primary); color:var(--sc-text); font-size:11.5px; font-weight:800; letter-spacing:.03em; border-radius:999px; text-transform:uppercase; }
+
+    .featured-body { display:grid; gap:1.25rem; grid-template-columns:1fr; }
+    @media (min-width:900px) { .featured-body { grid-template-columns:minmax(0,1.6fr) minmax(0,1fr); gap:2rem; } }
+    .featured-main { position:relative; aspect-ratio:3/2; background:linear-gradient(180deg,#FFFFFF 0%,#F5F3EC 100%); border-radius:14px; border:1px solid var(--hairline); box-shadow:0 12px 40px -18px rgba(15,20,40,.18), 0 4px 12px rgba(15,20,40,.04); overflow:hidden; }
+    .featured-main img { width:100%; height:100%; object-fit:contain; padding:1rem; }
+    .featured-side { display:flex; flex-direction:column; gap:.9rem; }
+    .featured-side h3 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:1.55rem; margin:0; color:var(--ink); }
+    .featured-side p { margin:0; font-size:.95rem; color:var(--ink-soft); line-height:1.55; }
+    .featured-side .thumbs { display:grid; grid-template-columns:repeat(5,1fr); gap:.4rem; margin-top:.5rem; }
+    .featured-side .thumbs .t { aspect-ratio:3/2; background:linear-gradient(180deg,#FFFFFF 0%,#F5F3EC 100%); border:2px solid var(--hairline); border-radius:8px; overflow:hidden; cursor:pointer; padding:0; position:relative; transition:border-color .15s; }
+    .featured-side .thumbs .t img { width:100%; height:100%; object-fit:contain; padding:3px 3px 12px; }
+    .featured-side .thumbs .t .lab { position:absolute; bottom:0; left:0; right:0; font-size:8px; font-weight:800; letter-spacing:.04em; text-transform:uppercase; color:var(--ink-soft); background:linear-gradient(180deg, transparent 0%, rgba(255,255,255,.95) 60%); padding:10px 2px 2px; text-align:center; line-height:1; }
+    .featured-side .thumbs .t.active { border-color:var(--sc-primary); box-shadow:0 4px 10px -4px rgba(15,20,40,.25); }
+    .featured-side .thumbs .t.active .lab { color:var(--sc-primary); }
+    .featured-side .cta-primary { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; background:linear-gradient(90deg,var(--lit-orange),var(--lit-flame) 55%,var(--lit-pink)); color:#fff; padding:13px 22px; font-weight:800; font-size:14.5px; border-radius:999px; box-shadow:0 8px 20px -6px rgba(240,150,0,.5); text-decoration:none; text-align:center; margin-top:.4rem; letter-spacing:.02em; }
+    .featured-side .cta-primary:hover { transform:translateY(-1px); }
+    .featured-side .cta-ghost { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; background:transparent; color:var(--ink); border:1.5px solid var(--hairline); padding:11px 20px; font-weight:700; font-size:13px; border-radius:999px; text-decoration:none; text-align:center; }
+
+    /* Product grid — link cards to /shop/{slug}/ */
+    .catalog { max-width:1240px; margin:0 auto; padding:2.75rem 1.25rem 1.5rem; }
+    .catalog h2 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:clamp(1.7rem,3vw,2.2rem); margin:0 0 .35rem; color:var(--ink); }
+    .catalog p.sub { margin:0 0 1.35rem; font-size:.95rem; color:var(--ink-soft); max-width:640px; line-height:1.55; }
+    .catalog-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:.9rem; }
+    @media (min-width:700px)  { .catalog-grid { grid-template-columns:repeat(3,1fr); } }
+    @media (min-width:1000px) { .catalog-grid { grid-template-columns:repeat(3,1fr); gap:1.1rem; } }
+    .cat-card { background:#fff; border:1px solid var(--hairline); border-radius:12px; padding:0; text-decoration:none; color:var(--ink); overflow:hidden; transition:border-color .15s, transform .1s, box-shadow .2s; display:flex; flex-direction:column; }
+    .cat-card:hover { border-color:var(--sc-primary); transform:translateY(-2px); box-shadow:0 12px 26px -12px rgba(15,20,40,.25); }
+    .cat-card .cat-img { aspect-ratio:3/2; background:linear-gradient(180deg,#F9F7F1 0%,#EFECE3 100%); display:grid; place-items:center; overflow:hidden; }
+    .cat-card .cat-img img { width:100%; height:100%; object-fit:contain; padding:.5rem; }
+    .cat-card .cat-info { padding:.85rem 1rem 1rem; }
+    .cat-card .cat-info h3 { font-size:1.05rem; font-weight:800; margin:0 0 .2rem; color:var(--ink); }
+    .cat-card .cat-info p { font-size:12.5px; color:var(--muted); margin:0; line-height:1.4; }
+    .cat-card .cat-info .arrow { display:inline-block; margin-top:.55rem; font-size:12px; font-weight:800; color:var(--sc-primary); text-transform:uppercase; letter-spacing:.04em; }
+
+    .catalog-note { margin-top:1.35rem; padding:.85rem 1rem; background:rgba(240,150,0,.09); border-left:3px solid var(--lit-orange); border-radius:6px; font-size:12.5px; line-height:1.6; color:var(--ink-soft); }
+    .catalog-note b { color:var(--ink); }
+
+    /* How ordering works */
+    .how { max-width:1240px; margin:0 auto; padding:2.75rem 1.25rem 1.5rem; }
+    .how h2 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:clamp(1.7rem,3vw,2.2rem); margin:0 0 1.4rem; color:var(--ink); }
+    .how-steps { display:grid; grid-template-columns:1fr; gap:1rem; }
+    @media (min-width:700px)  { .how-steps { grid-template-columns:repeat(2,1fr); } }
+    @media (min-width:1000px) { .how-steps { grid-template-columns:repeat(4,1fr); } }
+    .step { background:#fff; border:1px solid var(--hairline); border-radius:12px; padding:1.2rem 1.25rem 1.35rem; position:relative; }
+    .step .num { font-family:'Bebas Neue',sans-serif; font-size:2rem; color:var(--sc-primary); line-height:.95; margin:0 0 .3rem; }
+    .step h3 { font-size:1.05rem; font-weight:800; color:var(--ink); margin:0 0 .35rem; }
+    .step p { font-size:.9rem; color:var(--ink-soft); margin:0; line-height:1.55; }
+
+    /* Kristen intro */
+    .kristen { max-width:1240px; margin:0 auto; padding:1rem 1.25rem 2.5rem; }
+    .kristen-inner { background:#fff; border:1px solid var(--hairline); border-radius:14px; padding:1.75rem; }
+    @media (min-width:700px) { .kristen-inner { padding:2.25rem; } }
+    .kristen h2 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:clamp(1.6rem,2.8vw,2rem); margin:0 0 .5rem; color:var(--ink); }
+    .kristen p { font-size:1rem; color:var(--ink-soft); line-height:1.7; margin:0 0 .75rem; }
+    .kristen p:last-child { margin-bottom:0; }
+    .kristen .sig { display:inline-flex; align-items:center; gap:.75rem; font-weight:800; color:var(--ink); margin-top:.5rem; font-size:.95rem; }
+    .kristen .sig .dot { width:8px; height:8px; border-radius:50%; background:var(--sc-primary); }
+
+    /* Bottom CTA */
+    .bottom-cta { background:var(--sc-primary); color:var(--sc-text); padding:3.25rem 1.25rem; text-align:center; position:relative; overflow:hidden; }
+    .bottom-cta::before { content:""; position:absolute; inset:0; background:radial-gradient(circle at 80% 20%, rgba(255,255,255,.08) 0%, transparent 45%); }
+    .bottom-cta > * { position:relative; }
+    .bottom-cta h2 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:clamp(1.9rem,3.5vw,2.4rem); margin:0 0 .55rem; color:var(--sc-text); }
+    .bottom-cta p { max-width:540px; margin:0 auto 1.5rem; font-size:1rem; line-height:1.55; opacity:.9; }
+    .bottom-cta .cta-primary { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; background:#fff; color:var(--sc-primary); padding:14px 28px; font-weight:800; font-size:15px; border-radius:999px; text-decoration:none; box-shadow:0 12px 26px -8px rgba(0,0,0,.35); letter-spacing:.02em; }
+    .bottom-cta .cta-primary:hover { transform:translateY(-1px); }
+
+    /* Footer */
+    .lit-footer { background:#0b1220; color:rgba(255,255,255,.82); padding:2.75rem 1.25rem 2rem; }
+    .lit-footer-inner { max-width:1192px; margin:0 auto; display:grid; gap:1.5rem; grid-template-columns:1fr; }
+    @media (min-width:800px) { .lit-footer-inner { grid-template-columns:1.3fr 1fr 1fr; } }
+    .lit-footer h4 { color:#fff; font-weight:800; font-size:.95rem; margin:0 0 .6rem; letter-spacing:.03em; text-transform:uppercase; }
+    .lit-footer a { color:rgba(255,255,255,.82); text-decoration:none; display:block; margin:.25rem 0; }
+    .lit-footer a:hover { color:#fff; }
+    .lit-footer-bottom { max-width:1192px; margin:2rem auto 0; padding-top:1.25rem; border-top:1px solid rgba(255,255,255,.08); color:rgba(255,255,255,.55); font-size:.85rem; text-align:center; }
+
+  </style>
+</head>
+<body>
+
+<header class="lit-nav">
+  <div class="lit-nav-inner">
+    <a href="/" class="lit-brand">
+      <img src="/assets/img/ChatGPT-Image-Apr-23-2026-01_50_45-PM.png" alt="Lakeside Ink &amp; Threadz"/>
+      <span>Lakeside Ink &amp; Threadz</span>
+    </a>
+    <nav class="lit-links" aria-label="Primary">
+      <a href="/services/">Services</a>
+      <a href="/gallery/">Gallery</a>
+      <a href="/business-orders/">Business Orders</a>
+      <a href="/blog/">Blog</a>
+      <a href="/contact/">Contact</a>
+      <a href="/quote/" class="lit-cta-nav">Get a Quote</a>
+    </nav>
+  </div>
+</header>
+
+<nav class="crumbs" aria-label="breadcrumb">
+  <a href="/">Home</a> &nbsp;&middot;&nbsp; <a href="/schools/">Schools</a> &nbsp;&middot;&nbsp; <span>Livingston Lions</span>
+</nav>
+
+<section class="school-hero">
+  <div class="school-hero-inner">
+    <div>
+      <span class="eyebrow">Livingston, TX &middot; Custom Team Gear</span>
+      <h1>Livingston Lions<br>Custom Gear</h1>
+      <p class="tagline">Hats, tees, hoodies, polos, dad hats, and beanies &mdash; embroidered or printed with your Livingston Lions mark. Kristen writes every quote by hand, usually same day.</p>
+      <div class="hero-ctas">
+        <a class="cta-primary" href="/quote/?school=livingston-lions">Get Your Livingston Lions Quote &rarr;</a>
+        <a class="cta-ghost" href="#catalog">See the gear</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <img src="/assets/img/garments/richardson-112-livingston-lions-hero.png" alt="Livingston Lions trucker hat mockup by Lakeside Ink &amp; Threadz">
+    </div>
+  </div>
+</section>
+
+<section class="featured" id="featured">
+  <div class="featured-head">
+    <div>
+      <h2>The signature piece: Livingston Lions trucker hat</h2>
+      <p>Richardson 112 trucker &mdash; the shape everyone actually asks for, embroidered with your Livingston Lions mark. Structured 6-panel front, mesh back, curved brim, snapback closure.</p>
+    </div>
+    <span class="pill">Our home team</span>
+  </div>
+
+  <div class="featured-body">
+    <div class="featured-main">
+      <img id="featured-img" src="/assets/img/garments/richardson-112-livingston-lions-hero.png" alt="Livingston Lions trucker hat &mdash; hero shot">
+    </div>
+    <div class="featured-side">
+      <h3>Five angles, five ways to see it</h3>
+      <p>Hero, front, embroidery macro, on-model fit, and lifestyle at the lake. Click any thumbnail to swap the main image.</p>
+      <div class="thumbs" role="tablist" aria-label="Trucker hat angles">
+        <button class="t active" data-shot="hero" aria-label="3/4 Hero">
+          <img src="/assets/img/garments/richardson-112-livingston-lions-hero.png" alt="">
+          <span class="lab">3/4 Hero</span>
+        </button>
+        <button class="t" data-shot="front" aria-label="Front">
+          <img src="/assets/img/garments/richardson-112-livingston-lions-front.png" alt="">
+          <span class="lab">Front</span>
+        </button>
+        <button class="t" data-shot="detail" aria-label="Detail">
+          <img src="/assets/img/garments/richardson-112-livingston-lions-detail.png" alt="">
+          <span class="lab">Detail</span>
+        </button>
+        <button class="t" data-shot="model" aria-label="On Model">
+          <img src="/assets/img/garments/richardson-112-livingston-lions-model.png" alt="">
+          <span class="lab">On Model</span>
+        </button>
+        <button class="t" data-shot="lifestyle" aria-label="Lifestyle">
+          <img src="/assets/img/garments/richardson-112-livingston-lions-lifestyle.png" alt="">
+          <span class="lab">Lifestyle</span>
+        </button>
+      </div>
+      <a class="cta-primary" href="/quote/?school=livingston-lions&amp;product=trucker-hat">Quote a Livingston Lions trucker hat &rarr;</a>
+      <a class="cta-ghost" href="/shop/trucker-hat/">See the full trucker-hat product page &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="catalog" id="catalog">
+  <h2>The full Livingston Lions catalog</h2>
+  <p class="sub">Everything below can be made with the Livingston Lions mark &mdash; embroidered, printed, or both. Click through for materials, decoration options, and pricing ranges on each piece.</p>
+
+  <div class="catalog-grid">
+    <a class="cat-card" href="/shop/trucker-hat/">
+      <div class="cat-img"><img src="/assets/img/garments/richardson-112.png" alt="Trucker Hat" loading="lazy"></div>
+      <div class="cat-info">
+        <h3>Trucker Hat</h3>
+        <p>Richardson 112 &middot; the classic</p>
+        <span class="arrow">Available in Livingston Lions colors &rarr;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="/shop/classic-tee/">
+      <div class="cat-img"><img src="/assets/img/garments/classic-tee-hero.png" alt="Classic Tee" loading="lazy"></div>
+      <div class="cat-info">
+        <h3>Classic Tee</h3>
+        <p>Bella 3001 &middot; soft cotton, modern fit</p>
+        <span class="arrow">Available in Livingston Lions colors &rarr;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="/shop/hoodie/">
+      <div class="cat-img"><img src="/assets/img/garments/hoodie-hero.png" alt="Premium Hoodie" loading="lazy"></div>
+      <div class="cat-info">
+        <h3>Premium Hoodie</h3>
+        <p>Bella 3719 &middot; sponge fleece</p>
+        <span class="arrow">Available in Livingston Lions colors &rarr;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="/shop/polo/">
+      <div class="cat-img"><img src="/assets/img/garments/polo-hero.png" alt="Performance Polo" loading="lazy"></div>
+      <div class="cat-info">
+        <h3>Performance Polo</h3>
+        <p>Core 365 88181 &middot; wicking, wrinkle-free</p>
+        <span class="arrow">Available in Livingston Lions colors &rarr;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="/shop/dad-hat/">
+      <div class="cat-img"><img src="/assets/img/garments/dad-hat-hero.png" alt="Dad Hat" loading="lazy"></div>
+      <div class="cat-info">
+        <h3>Dad Hat</h3>
+        <p>Adams AD969 &middot; unstructured cotton</p>
+        <span class="arrow">Available in Livingston Lions colors &rarr;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="/shop/beanie/">
+      <div class="cat-img"><img src="/assets/img/garments/beanie-hero.png" alt="Cuffed Beanie" loading="lazy"></div>
+      <div class="cat-info">
+        <h3>Cuffed Beanie</h3>
+        <p>Yupoong 1501KC &middot; winter essential</p>
+        <span class="arrow">Available in Livingston Lions colors &rarr;</span>
+      </div>
+    </a>
+  </div>
+
+  <p class="catalog-note"><b>Real school marks used with district permission.</b> Kristen confirms per-order production permission at the quote stage.</p>
+</section>
+
+<section class="how">
+  <h2>How it works</h2>
+  <div class="how-steps">
+    <div class="step">
+      <div class="num">1</div>
+      <h3>Send us your artwork</h3>
+      <p>Email your school logo (or wordmark, or spirit graphic) with a note on what you want it on. If you don't have art we can trace, we'll help.</p>
+    </div>
+    <div class="step">
+      <div class="num">2</div>
+      <h3>Kristen writes a real quote</h3>
+      <p>By hand, usually same day. Pricing tied to your quantity, decoration type, and any bulk-order breaks.</p>
+    </div>
+    <div class="step">
+      <div class="num">3</div>
+      <h3>Approve a digital proof</h3>
+      <p>We send a mockup of exactly what will be printed or stitched. Sign off before we make anything.</p>
+    </div>
+    <div class="step">
+      <div class="num">4</div>
+      <h3>Pickup or ship</h3>
+      <p>5&ndash;10 business day turnaround from proof approval. Pickup on Twin Creeks Dr, or we can ship to a booster/parent-group coordinator.</p>
+    </div>
+  </div>
+</section>
+
+<section class="kristen">
+  <div class="kristen-inner">
+    <h2>Every quote written by hand, by Kristen</h2>
+    <p>No account. No calculator that spits out fake pricing. When you send us your Livingston Lions artwork, Kristen (the owner, and the person actually stitching your gear) sits down and writes you a real quote &mdash; usually the same day, always within one business day.</p>
+    <p>Booster clubs, athletic directors, parent groups, PTA orders, senior-class shirts &mdash; we've done all of it. If it's a bulk run, ask about tier pricing at 24, 48, and 96+ pieces.</p>
+    <span class="sig"><span class="dot"></span> Kristen &middot; Lakeside Ink &amp; Threadz &middot; Livingston, TX</span>
+  </div>
+</section>
+
+<section class="bottom-cta">
+  <h2>Ready to see it with your Livingston Lions logo?</h2>
+  <p>Send us your artwork, quantity, and which pieces you want. Kristen writes your quote by hand &mdash; usually same day.</p>
+  <a class="cta-primary" href="/quote/?school=livingston-lions">Get Your Livingston Lions Quote &rarr;</a>
+</section>
+
+<footer class="lit-footer">
+  <div class="lit-footer-inner">
+    <div>
+      <h4>Lakeside Ink &amp; Threadz</h4>
+      <p style="margin:.25rem 0 .75rem;">Custom embroidery, DTF printing, and branded apparel &mdash; right here on Lake Livingston.</p>
+      <p style="margin:0;color:rgba(255,255,255,.7);">Twin Creeks Dr, Livingston, TX 77351</p>
+    </div>
+    <div>
+      <h4>Talk to us</h4>
+      <a href="tel:+13469885449">(346) 988-5449</a>
+      <a href="mailto:hello@lakesidethreadz.com">hello@lakesidethreadz.com</a>
+      <a href="/quote/">Get a quote &rarr;</a>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="/services/">Services</a>
+      <a href="/gallery/">Gallery</a>
+      <a href="/business-orders/">Business Orders</a>
+      <a href="/blog/">Blog</a>
+      <a href="/contact/">Contact</a>
+    </div>
+  </div>
+  <p class="lit-footer-bottom">&copy; Lakeside Ink &amp; Threadz &middot; Family-run on Lake Livingston</p>
+</footer>
+
+<script>
+  // Thumbnail swap: change featured image + move active class.
+  const featuredImg = document.getElementById('featured-img');
+  const bySlug = "livingston-lions";
+  document.querySelectorAll('.featured-side .thumbs .t').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.featured-side .thumbs .t').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+      featuredImg.src = '/assets/img/garments/richardson-112-' + bySlug + '-' + btn.dataset.shot + '.png';
+    });
+  });
+</script>
+</body>
+</html>

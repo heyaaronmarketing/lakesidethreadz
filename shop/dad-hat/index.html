@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Dad Hat &middot; Adams AD969 &middot; Lakeside Ink &amp; Threadz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Nunito:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <style>
+    :root {
+      --lit-blue:#001E78; --lit-blue-2:#0033AA;
+      --lit-orange:#F09600; --lit-flame:#F05A3C; --lit-pink:#E10078;
+      --ink:#0F1428; --ink-soft:#3F4560; --muted:#8A8FA0;
+      --ground:#FAFAF7; --surface:#FFFFFF; --surface-alt:#F3F1EA;
+      --hairline:#E4E1D7; --brand-soft:#EEF0FA;
+      --tier-premium:#001E78; --tier-premium-soft:#EEF0FA;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior:smooth; }
+    html, body { margin:0; padding:0; }
+    body { font-family:'Nunito', system-ui, -apple-system, sans-serif; color:var(--ink); background:var(--ground); -webkit-font-smoothing:antialiased; overflow-x:hidden; }
+    a { color: var(--lit-blue); }
+    img { max-width:100%; display:block; }
+
+    .lit-nav { position:sticky; top:0; z-index:40; background:rgba(255,255,255,.96); backdrop-filter:blur(8px); border-bottom:1px solid #eef0f6; }
+    .lit-nav-inner { max-width:1240px; margin:0 auto; padding:.9rem 1.25rem; display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+    .lit-brand { display:flex; align-items:center; gap:.65rem; text-decoration:none; color:var(--lit-blue); font-weight:800; font-size:1.05rem; }
+    .lit-brand img { height:34px; width:auto; }
+    .lit-links { display:none; gap:1.4rem; align-items:center; }
+    .lit-links a { color:#111827; text-decoration:none; font-weight:600; font-size:.95rem; }
+    .lit-links a:hover { color:var(--lit-blue); }
+    .lit-cta-nav { background:linear-gradient(90deg,var(--lit-orange),var(--lit-flame) 55%,var(--lit-pink)); color:#fff !important; padding:.55rem 1rem; border-radius:.6rem; font-weight:700 !important; box-shadow:0 6px 14px rgba(240,90,60,.25); }
+    @media (min-width:900px) { .lit-links { display:flex; } }
+
+    .crumbs { max-width:1240px; margin:0 auto; padding:1rem 1.25rem 0; font-size:12px; color:var(--muted); letter-spacing:.02em; }
+    .crumbs a { color:var(--muted); text-decoration:none; }
+    .crumbs a:hover { color:var(--lit-blue); }
+
+    .prod { max-width:1240px; margin:0 auto; padding:1rem 1.25rem 2rem; display:grid; grid-template-columns:1fr; gap:1.75rem; }
+    @media (min-width:900px)  { .prod { grid-template-columns:minmax(0,3fr) minmax(0,2fr); gap:2.5rem; padding-top:1.25rem; } }
+    @media (min-width:1100px) { .prod { grid-template-columns:minmax(0,1.55fr) minmax(0,1fr); gap:3rem; } }
+
+    .gallery { display:flex; flex-direction:column; gap:.75rem; }
+    .gallery-main { position:relative; aspect-ratio:3/2; width:100%; background:linear-gradient(180deg,#FFFFFF 0%,#F5F3EC 100%); border-radius:14px; border:1px solid var(--hairline); box-shadow:0 12px 40px -18px rgba(15,20,40,.18), 0 4px 12px rgba(15,20,40,.04); overflow:hidden; }
+    .gallery-main img { width:100%; height:100%; object-fit:contain; padding:1rem; }
+    .gallery-thumbs { display:grid; grid-template-columns:repeat(3,1fr); gap:.5rem; }
+    .thumb { position:relative; aspect-ratio:3/2; background:linear-gradient(180deg,#FFFFFF 0%,#F5F3EC 100%); border:2px solid var(--hairline); border-radius:9px; cursor:pointer; overflow:hidden; transition:border-color .15s, transform .1s; padding:0; }
+    .thumb img { width:100%; height:100%; object-fit:contain; padding:.4rem .4rem .9rem; }
+    .thumb:hover { border-color:var(--lit-blue); }
+    .thumb.active { border-color:var(--lit-blue); box-shadow:0 6px 14px -6px rgba(0,30,120,.25); }
+    .thumb .thumb-label { position:absolute; bottom:0; left:0; right:0; font-size:9px; font-weight:800; letter-spacing:.05em; text-transform:uppercase; color:var(--ink-soft); background:linear-gradient(180deg, transparent 0%, rgba(255,255,255,.95) 55%); padding:14px 4px 4px; text-align:center; }
+    .thumb.active .thumb-label { color:var(--lit-blue); }
+
+    .info { padding-top:.15rem; display:flex; flex-direction:column; }
+    .info .tier { display:inline-flex; align-items:center; gap:5px; align-self:flex-start; font-size:10px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; padding:4px 10px; border-radius:5px; background:var(--tier-premium-soft); color:var(--tier-premium); margin-bottom:.75rem; }
+    .info .tier::before { content:""; width:5px; height:5px; border-radius:50%; background:var(--lit-blue); }
+    .info h1 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:clamp(2.1rem,4.2vw,3rem); line-height:1; letter-spacing:.005em; margin:0 0 .4rem; color:var(--ink); }
+    .info .subline { font-size:1rem; color:var(--ink-soft); margin:0 0 .5rem; line-height:1.5; }
+    .info .brand-note { font-size:11px; color:var(--muted); font-weight:700; letter-spacing:.06em; text-transform:uppercase; margin-bottom:1.15rem; }
+
+    .price-row { display:flex; align-items:baseline; gap:.75rem; margin-bottom:1.1rem; padding-bottom:1.1rem; border-bottom:1px solid var(--hairline); flex-wrap:wrap; }
+    .price-row .price { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:1.55rem; color:var(--lit-blue); letter-spacing:.015em; }
+    .price-row .price-note { font-size:12px; color:var(--muted); }
+
+    .specs { background:var(--surface-alt); border-left:4px solid var(--lit-blue); border-radius:8px; padding:12px 15px; margin-bottom:1.2rem; font-size:12.5px; line-height:1.6; }
+    .specs div { margin:2px 0; }
+    .specs b { color:var(--lit-blue); font-weight:800; text-transform:uppercase; letter-spacing:.03em; font-size:10.5px; margin-right:4px; }
+
+    .cta-primary { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; background:linear-gradient(90deg,var(--lit-orange),var(--lit-flame) 55%,var(--lit-pink)); color:#fff; border:none; padding:15px 24px; font:inherit; font-weight:800; font-size:15px; border-radius:999px; cursor:pointer; box-shadow:0 8px 22px -6px rgba(240,150,0,.55); transition:transform .1s, box-shadow .15s; letter-spacing:.02em; text-decoration:none; width:100%; text-align:center; margin-top:auto; }
+    .cta-primary:hover { transform:translateY(-1px); box-shadow:0 12px 28px -6px rgba(240,90,60,.6); }
+    .cta-secondary { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; margin-top:.55rem; width:100%; background:transparent; color:var(--lit-blue); border:1.5px solid var(--hairline); padding:11px 20px; font:inherit; font-weight:700; font-size:13.5px; border-radius:999px; cursor:pointer; text-decoration:none; text-align:center; transition:border-color .15s; }
+    .cta-secondary:hover { border-color:var(--lit-blue); }
+    .trust { font-size:12px; color:var(--ink-soft); margin-top:.7rem; text-align:center; line-height:1.55; }
+    .trust b { color:var(--lit-blue); font-weight:800; }
+
+    .prose { max-width:920px; margin:0 auto; padding:2.5rem 1.25rem; }
+    .prose h2 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:2rem; line-height:1.1; letter-spacing:.005em; color:var(--lit-blue); margin:2.25rem 0 .85rem; }
+    .prose h2:first-child { margin-top:0; }
+    .prose p { font-size:1.05rem; line-height:1.75; margin:0 0 1.1rem; color:var(--ink); }
+    .prose p strong { color:var(--ink); font-weight:800; }
+
+    .use-grid { display:grid; grid-template-columns:1fr; gap:.9rem; margin:1.25rem 0 .5rem; }
+    @media (min-width:640px) { .use-grid { grid-template-columns:1fr 1fr; } }
+    .use { background:var(--surface); border:1px solid var(--hairline); border-radius:12px; padding:1.1rem 1.25rem; }
+    .use h3 { font-size:1rem; font-weight:800; color:var(--lit-blue); margin:0 0 .35rem; }
+    .use p { font-size:.9rem; margin:0; color:var(--ink-soft); line-height:1.55; }
+
+    .faq details { border-bottom:1px solid var(--hairline); padding:1rem 0; }
+    .faq summary { font-weight:800; cursor:pointer; font-size:1.02rem; color:var(--ink); list-style:none; display:flex; justify-content:space-between; align-items:center; }
+    .faq summary::-webkit-details-marker { display:none; }
+    .faq summary::after { content:"+"; color:var(--lit-orange); font-size:1.5rem; line-height:1; font-weight:800; }
+    .faq details[open] summary::after { content:"\2212"; }
+    .faq details[open] summary { color:var(--lit-blue); }
+    .faq details p { margin:.65rem 0 0; color:var(--ink-soft); line-height:1.65; font-size:.98rem; }
+
+    .bottom-cta { background:linear-gradient(135deg,var(--lit-blue) 0%,var(--lit-blue-2) 100%); color:#fff; padding:3rem 1.25rem; text-align:center; }
+    .bottom-cta h2 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:2.15rem; letter-spacing:.005em; margin:0 0 .55rem; color:#fff; }
+    .bottom-cta p { color:rgba(255,255,255,.85); max-width:540px; margin:0 auto 1.4rem; font-size:1rem; line-height:1.5; }
+    .bottom-cta .cta-primary { max-width:340px; margin:0 auto; }
+
+    .lit-footer { background:#0b1220; color:rgba(255,255,255,.82); padding:2.75rem 1.25rem 2rem; }
+    .lit-footer-inner { max-width:1192px; margin:0 auto; display:grid; gap:1.5rem; grid-template-columns:1fr; }
+    @media (min-width:800px) { .lit-footer-inner { grid-template-columns:1.3fr 1fr 1fr; } }
+    .lit-footer h4 { color:#fff; font-weight:800; font-size:.95rem; margin:0 0 .6rem; letter-spacing:.03em; text-transform:uppercase; }
+    .lit-footer a { color:rgba(255,255,255,.82); text-decoration:none; display:block; margin:.25rem 0; }
+    .lit-footer a:hover { color:#fff; }
+    .lit-footer-bottom { max-width:1192px; margin:2rem auto 0; padding-top:1.25rem; border-top:1px solid rgba(255,255,255,.08); color:rgba(255,255,255,.55); font-size:.85rem; text-align:center; }
+</style>
+</head>
+<body>
+
+<header class="lit-nav">
+  <div class="lit-nav-inner">
+    <a href="/" class="lit-brand">
+      <img src="/assets/img/ChatGPT-Image-Apr-23-2026-01_50_45-PM.png" alt="Lakeside Ink &amp; Threadz"/>
+      <span>Lakeside Ink &amp; Threadz</span>
+    </a>
+    <nav class="lit-links" aria-label="Primary">
+      <a href="/services/">Services</a>
+      <a href="/gallery/">Gallery</a>
+      <a href="/business-orders/">Business Orders</a>
+      <a href="/blog/">Blog</a>
+      <a href="/contact/">Contact</a>
+      <a href="/quote/" class="lit-cta-nav">Get a Quote</a>
+    </nav>
+  </div>
+</header>
+
+<nav class="crumbs" aria-label="breadcrumb">
+  <a href="/">Home</a> &nbsp;&middot;&nbsp; <a href="/services/">Services</a> &nbsp;&middot;&nbsp; <span>Dad Hat</span>
+</nav>
+
+<section class="prod">
+  <div class="gallery">
+    <div class="gallery-main">
+      <img id="hero-img" src="/assets/img/garments/dad-hat-hero.png" alt="Dad Hat &mdash; Adams AD969" loading="eager">
+    </div>
+    <div class="gallery-thumbs" role="tablist" aria-label="Product photo angles">
+      <button class="thumb active" data-src="/assets/img/garments/dad-hat-hero.png" aria-label="Three-quarter hero">
+        <img src="/assets/img/garments/dad-hat-hero.png" alt="" loading="lazy">
+        <span class="thumb-label">Three-quarter hero</span>
+      </button>
+      <button class="thumb" data-src="/assets/img/garments/dad-hat-side.png" aria-label="Side profile">
+        <img src="/assets/img/garments/dad-hat-side.png" alt="" loading="lazy">
+        <span class="thumb-label">Side profile</span>
+      </button>
+      <button class="thumb" data-src="/assets/img/garments/dad-hat-model.png" aria-label="On Model">
+        <img src="/assets/img/garments/dad-hat-model.png" alt="" loading="lazy">
+        <span class="thumb-label">On Model</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="info">
+    <span class="tier">Casual · Modern Boutique Feel</span>
+    <h1>Dad Hat</h1>
+    <p class="subline">Unstructured cotton twill with a low soft crown &mdash; the hat that looks lived-in the day you get it.</p>
+    <p class="brand-note">Adams · Style AD969 · Adjustable one-size</p>
+
+    <div class="price-row">
+      <span class="price">Real quote in one business day</span>
+      <span class="price-note">Kristen writes every quote by hand.</span>
+    </div>
+
+    <div class="specs">
+      <div><b>Material</b> 100% brushed cotton twill &middot; soft-hand fabric grain visible</div>
+      <div><b>Fit</b> Unstructured low-profile crown &middot; sits soft, not tall</div>
+      <div><b>Closure</b> Adjustable metal-buckle strap &middot; one-size-fits-most</div>
+      <div><b>Decoration</b> Embroidery (small left-front or centered) &middot; DTF</div>
+      <div><b>Quantity</b> No minimums &mdash; boutique-style small runs are our sweet spot</div>
+    </div>
+
+    <a class="cta-primary" href="/quote/?product=dad-hat">Get Your Quote &rarr;</a>
+    <a class="cta-secondary" href="tel:+13469885449">Or call/text Kristen: (346) 988-5449</a>
+    <p class="trust"><b>Kristen writes every quote by hand.</b> No account required. Usually same day, always within one business day.</p>
+  </div>
+</section>
+
+<article class="prose">
+  <h2>Why we recommend this piece</h2>
+  <p>The Adams AD969 is the opposite of a Richardson 112 &mdash; where the trucker is bold and structured, this dad hat is soft, low, unbranded-feeling until you look close. Cotton twill takes an embroidered logo without competing with it.</p>
+  <p>We stock this for boutique brands, small-town coffee shops, wedding parties, and anyone who wants their hat to feel like a favorite the day they pull it out of the box. Not for jobsites &mdash; the mesh trucker is your friend there.</p>
+
+  <h2>How we decorate it</h2>
+  <p><strong>Embroidery (small)</strong> &mdash; The classic dad-hat play &mdash; small ~1.5-2 inch logo, centered or offset. Understated. $12&ndash;18.</p>
+  <p><strong>Embroidery (front-centered)</strong> &mdash; Bigger, bolder statement piece &mdash; block letters, wordmarks, or larger mascots. $18&ndash;26.</p>
+  <p><strong>DTF transfer</strong> &mdash; For detailed full-color art you can't stitch. Softer than a hat sticker, permanent as embroidery. $10&ndash;16.</p>
+
+  <h2>Best for</h2>
+  <div class="use-grid">
+    <div class="use">
+      <h3>Boutique brands &amp; small shops</h3>
+      <p>The hat that matches a curated-brand feel. Coffee shops, breweries, retail.</p>
+    </div>
+    <div class="use">
+      <h3>Weddings &amp; events</h3>
+      <p>Bachelor/bachelorette parties, groomsmen gifts, wedding-weekend giveaways.</p>
+    </div>
+    <div class="use">
+      <h3>Corporate soft branding</h3>
+      <p>Executive team, board retreats, off-sites where a trucker would feel too casual.</p>
+    </div>
+    <div class="use">
+      <h3>Family &amp; lake days</h3>
+      <p>Reunions where you want matching without going full logo-blast.</p>
+    </div>
+  </div>
+
+  <h2>Frequently asked</h2>
+  <div class="faq">
+    <details>
+      <summary>How is this different from a trucker hat?</summary>
+      <p>The dad hat is unstructured (soft crown, sits flat) and cotton throughout (no mesh back). Reads more retail-boutique; the Richardson 112 reads more workwear/team-gear.</p>
+    </details>
+    <details>
+      <summary>Does it come in different colors?</summary>
+      <p>Yes &mdash; Adams carries ~15 solid colors. Two-tone options are limited compared to the trucker. Kristen will confirm current availability.</p>
+    </details>
+    <details>
+      <summary>How long does a run take?</summary>
+      <p>Embroidery: 5&ndash;10 business days from proof approval. Rush available for events.</p>
+    </details>
+    <details>
+      <summary>Can it be embroidered on the back?</summary>
+      <p>Yes &mdash; small text or a logo on the back panel. Nice touch for phone numbers or hashtags.</p>
+    </details>
+  </div>
+</article>
+
+<section class="bottom-cta">
+  <h2>Ready to see it with your logo?</h2>
+  <p>Six quick picks &mdash; garment, sizes, decoration, quantity. Kristen writes your real quote by hand, usually same day.</p>
+  <a class="cta-primary" href="/quote/?product=dad-hat">Get Your Quote &rarr;</a>
+</section>
+
+<footer class="lit-footer">
+  <div class="lit-footer-inner">
+    <div>
+      <h4>Lakeside Ink &amp; Threadz</h4>
+      <p style="margin:.25rem 0 .75rem;">Custom embroidery, DTF printing, and branded apparel &mdash; right here on Lake Livingston.</p>
+      <p style="margin:0;color:rgba(255,255,255,.7);">Twin Creeks Dr, Livingston, TX 77351</p>
+    </div>
+    <div>
+      <h4>Talk to us</h4>
+      <a href="tel:+13469885449">(346) 988-5449</a>
+      <a href="mailto:hello@lakesidethreadz.com">hello@lakesidethreadz.com</a>
+      <a href="/quote/">Get a quote &rarr;</a>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="/services/">Services</a>
+      <a href="/gallery/">Gallery</a>
+      <a href="/business-orders/">Business Orders</a>
+      <a href="/blog/">Blog</a>
+      <a href="/contact/">Contact</a>
+    </div>
+  </div>
+  <p class="lit-footer-bottom">&copy; Lakeside Ink &amp; Threadz &middot; Family-run on Lake Livingston</p>
+</footer>
+
+<script>
+  const heroImg = document.getElementById('hero-img');
+  document.querySelectorAll('.thumb').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.thumb').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+      heroImg.src = btn.dataset.src;
+    });
+  });
+</script>
+</body>
+</html>
