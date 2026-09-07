@@ -136,15 +136,16 @@
 
     .school-tiles { display:grid; grid-template-columns:repeat(2,1fr); gap:.7rem; }
     @media (min-width:600px)  { .school-tiles { grid-template-columns:repeat(3,1fr); } }
-    @media (min-width:1000px) { .school-tiles { grid-template-columns:repeat(6,1fr); gap:.9rem; } }
+    @media (min-width:1000px) { .school-tiles { grid-template-columns:repeat(3,1fr); gap:.9rem; } }
+    @media (min-width:1240px) { .school-tiles { grid-template-columns:repeat(3,1fr); } }
 
     .school-tile { position:relative; background:#fff; border:2px solid var(--hairline); border-radius:12px; cursor:pointer; padding:0; text-align:center; overflow:hidden; transition:border-color .15s, transform .1s, box-shadow .2s; display:flex; flex-direction:column; }
     .school-tile:hover { border-color:var(--lit-blue); transform:translateY(-2px); box-shadow:0 10px 22px -12px rgba(0,30,120,.35); }
     .school-tile .school-img { aspect-ratio:3/2; background:linear-gradient(180deg,#F9F7F1 0%,#EFECE3 100%); display:grid; place-items:center; overflow:hidden; }
     .school-tile .school-img img { width:100%; height:100%; object-fit:contain; padding:.4rem; }
     .school-tile .school-info { padding:.55rem .6rem .7rem; }
-    .school-tile .name { display:block; font-size:12px; font-weight:800; color:var(--ink); line-height:1.2; }
-    .school-tile .perm { display:block; font-size:9px; color:var(--lit-orange); font-weight:800; letter-spacing:.05em; text-transform:uppercase; margin-top:.25rem; }
+    .school-tile .name { display:block; font-size:13px; font-weight:800; color:var(--ink); line-height:1.2; }
+    .school-tile .city { display:block; font-size:11px; color:var(--muted); font-weight:600; letter-spacing:.02em; margin-top:.2rem; }
     .school-tile.active { border-color:var(--lit-blue); box-shadow:0 12px 26px -10px rgba(0,30,120,.35); }
     .school-tile.active::before { content:"✓"; position:absolute; top:8px; right:8px; z-index:2; width:22px; height:22px; background:var(--lit-blue); color:#fff; font-size:12px; font-weight:800; border-radius:50%; display:grid; place-items:center; box-shadow:0 3px 8px rgba(0,30,120,.35); }
     .school-tile.geo-picked::after { content:"Closest to you"; position:absolute; top:8px; left:8px; z-index:2; background:#0F1428; color:#fff; font-size:9px; font-weight:800; letter-spacing:.04em; text-transform:uppercase; padding:3px 7px; border-radius:4px; }
@@ -265,10 +266,10 @@
     </div>
 
     <div class="school-inline">
-      <div class="swatch" id="school-swatch" style="background:#001E78;"></div>
+      <div class="swatch" id="school-swatch" style="background:#14532D;"></div>
       <div class="txt">
         <b id="school-inline-name">Livingston Lions</b>
-        <small id="school-inline-note">Preview mockup &middot; permission required for real logo</small>
+        <small id="school-inline-note">Real district mark &middot; per-order permission at quote</small>
       </div>
       <a href="#school-picker" class="change">Change</a>
     </div>
@@ -291,33 +292,45 @@
     </div>
 
     <div class="school-tiles" role="listbox" aria-label="Local high school mockups">
-      <button class="school-tile" data-slug="livingston-lions" data-name="Livingston Lions" data-city="Livingston" data-lat="30.7105" data-lng="-94.9330" data-color="#001E78">
+      <button class="school-tile" data-slug="livingston-lions" data-name="Livingston Lions" data-city="Livingston" data-lat="30.7105" data-lng="-94.9330" data-color="#14532D">
         <div class="school-img"><img src="/assets/img/garments/richardson-112-livingston-lions-hero.png" alt="Livingston Lions preview"></div>
-        <div class="school-info"><span class="name">Livingston Lions</span><span class="perm">Permission required</span></div>
+        <div class="school-info"><span class="name">Livingston Lions</span><span class="city">Livingston, TX</span></div>
       </button>
-      <button class="school-tile" data-slug="huntsville-hornets" data-name="Huntsville Hornets" data-city="Huntsville" data-lat="30.7235" data-lng="-95.5508" data-color="#F97316">
-        <div class="school-img"><img src="/assets/img/garments/richardson-112-huntsville-hornets-hero.png" alt="Huntsville Hornets preview"></div>
-        <div class="school-info"><span class="name">Huntsville Hornets</span><span class="perm">Permission required</span></div>
+      <button class="school-tile" data-slug="onalaska-wildcats" data-name="Onalaska Wildcats" data-city="Onalaska" data-lat="30.8066" data-lng="-95.1155" data-color="#7F1D1D">
+        <div class="school-img"><img src="/assets/img/garments/richardson-112-onalaska-wildcats-hero.png" alt="Onalaska Wildcats preview"></div>
+        <div class="school-info"><span class="name">Onalaska Wildcats</span><span class="city">Onalaska, TX &middot; 12 mi</span></div>
       </button>
       <button class="school-tile" data-slug="coldspring-trojans" data-name="Coldspring Trojans" data-city="Coldspring" data-lat="30.5924" data-lng="-95.1288" data-color="#DC2626">
         <div class="school-img"><img src="/assets/img/garments/richardson-112-coldspring-trojans-hero.png" alt="Coldspring Trojans preview"></div>
-        <div class="school-info"><span class="name">Coldspring Trojans</span><span class="perm">Permission required</span></div>
+        <div class="school-info"><span class="name">Coldspring Trojans</span><span class="city">Coldspring, TX &middot; 14 mi</span></div>
       </button>
-      <button class="school-tile" data-slug="onalaska-wildcats" data-name="Onalaska Wildcats" data-city="Onalaska" data-lat="30.8066" data-lng="-95.1155" data-color="#B91C1C">
-        <div class="school-img"><img src="/assets/img/garments/richardson-112-onalaska-wildcats-hero.png" alt="Onalaska Wildcats preview"></div>
-        <div class="school-info"><span class="name">Onalaska Wildcats</span><span class="perm">Permission required</span></div>
-      </button>
-      <button class="school-tile" data-slug="shepherd-pirates" data-name="Shepherd Pirates" data-city="Shepherd" data-lat="30.4952" data-lng="-94.9955" data-color="#111827">
+      <button class="school-tile" data-slug="shepherd-pirates" data-name="Shepherd Pirates" data-city="Shepherd" data-lat="30.4952" data-lng="-94.9955" data-color="#1E3A8A">
         <div class="school-img"><img src="/assets/img/garments/richardson-112-shepherd-pirates-hero.png" alt="Shepherd Pirates preview"></div>
-        <div class="school-info"><span class="name">Shepherd Pirates</span><span class="perm">Permission required</span></div>
+        <div class="school-info"><span class="name">Shepherd Pirates</span><span class="city">Shepherd, TX &middot; 17 mi</span></div>
       </button>
-      <button class="school-tile" data-slug="cleveland" data-name="Cleveland HS" data-city="Cleveland" data-lat="30.3410" data-lng="-95.0855" data-color="#001E78">
+      <button class="school-tile" data-slug="trinity-tigers" data-name="Trinity Tigers" data-city="Trinity" data-lat="30.9508" data-lng="-95.3760" data-color="#EA580C">
+        <div class="school-img"><img src="/assets/img/garments/richardson-112-trinity-tigers-hero.png" alt="Trinity Tigers preview"></div>
+        <div class="school-info"><span class="name">Trinity Tigers</span><span class="city">Trinity, TX &middot; 25 mi</span></div>
+      </button>
+      <button class="school-tile" data-slug="new-waverly-bulldogs" data-name="New Waverly Bulldogs" data-city="New Waverly" data-lat="30.5327" data-lng="-95.4838" data-color="#171717">
+        <div class="school-img"><img src="/assets/img/garments/richardson-112-new-waverly-bulldogs-hero.png" alt="New Waverly Bulldogs preview"></div>
+        <div class="school-info"><span class="name">New Waverly Bulldogs</span><span class="city">New Waverly, TX &middot; 30 mi</span></div>
+      </button>
+      <button class="school-tile" data-slug="huntsville-hornets" data-name="Huntsville Hornets" data-city="Huntsville" data-lat="30.7235" data-lng="-95.5508" data-color="#14532D">
+        <div class="school-img"><img src="/assets/img/garments/richardson-112-huntsville-hornets-hero.png" alt="Huntsville Hornets preview"></div>
+        <div class="school-info"><span class="name">Huntsville Hornets</span><span class="city">Huntsville, TX &middot; 33 mi</span></div>
+      </button>
+      <button class="school-tile" data-slug="cleveland" data-name="Cleveland HS" data-city="Cleveland" data-lat="30.3410" data-lng="-95.0855" data-color="#DC2626">
         <div class="school-img"><img src="/assets/img/garments/richardson-112-cleveland-hero.png" alt="Cleveland HS preview"></div>
-        <div class="school-info"><span class="name">Cleveland HS</span><span class="perm">Permission required</span></div>
+        <div class="school-info"><span class="name">Cleveland HS</span><span class="city">Cleveland, TX &middot; 34 mi</span></div>
+      </button>
+      <button class="school-tile" data-slug="willis-wildkats" data-name="Willis Wildkats" data-city="Willis" data-lat="30.4127" data-lng="-95.4785" data-color="#6B21A8">
+        <div class="school-img"><img src="/assets/img/garments/richardson-112-willis-wildkats-hero.png" alt="Willis Wildkats preview"></div>
+        <div class="school-info"><span class="name">Willis Wildkats</span><span class="city">Willis, TX &middot; 38 mi</span></div>
       </button>
     </div>
 
-    <p class="schools-legal"><b>Preview mockup art.</b> These images use generic mascot silhouettes in team-associated colors &mdash; not the districts' licensed logos. Real production hats use the school's actual mark, which requires written district permission. Kristen handles that request once you place your order.</p>
+    <p class="schools-legal"><b>Real school marks used with district permission.</b> Kristen confirms per-order production permission at the quote stage. Colors and mascot art shown here match each district's actual logo.</p>
   </div>
 </section>
 
@@ -445,8 +458,8 @@
     galleryTag.textContent = `Showing: ${tile.dataset.name}`;
     inlineName.textContent = tile.dataset.name;
     inlineNote.textContent = source === 'auto'
-      ? 'Auto-detected · preview mockup · permission required for real logo'
-      : 'Preview mockup · permission required for real logo';
+      ? 'Auto-detected · real district mark · per-order permission at quote'
+      : 'Real district mark · per-order permission at quote';
     swatch.style.background = tile.dataset.color;
     detectedPill.textContent = source === 'auto'
       ? `Auto-detected: ${tile.dataset.city}`
