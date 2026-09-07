@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Local High Schools &middot; Lakeside Ink &amp; Threadz</title>
+  <meta name="description" content="Custom gear for local high schools around Lake Livingston &mdash; Livingston Lions, Onalaska Wildcats, Coldspring Trojans, Shepherd Pirates, Huntsville Hornets, Trinity Tigers, New Waverly Bulldogs, Cleveland, Willis Wildkats.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Nunito:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <style>
+    :root {
+      --lit-blue:#001E78; --lit-blue-2:#0033AA;
+      --lit-orange:#F09600; --lit-flame:#F05A3C; --lit-pink:#E10078;
+      --ink:#0F1428; --ink-soft:#3F4560; --muted:#8A8FA0;
+      --ground:#FAFAF7; --surface:#FFFFFF; --surface-alt:#F3F1EA;
+      --hairline:#E4E1D7;
+    }
+    * { box-sizing:border-box; }
+    html, body { margin:0; padding:0; }
+    body { font-family:'Nunito',system-ui,sans-serif; color:var(--ink); background:var(--ground); -webkit-font-smoothing:antialiased; overflow-x:hidden; }
+    a { color:var(--lit-blue); }
+    img { max-width:100%; display:block; }
+
+    .lit-nav { position:sticky; top:0; z-index:40; background:rgba(255,255,255,.96); backdrop-filter:blur(8px); border-bottom:1px solid #eef0f6; }
+    .lit-nav-inner { max-width:1240px; margin:0 auto; padding:.9rem 1.25rem; display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+    .lit-brand { display:flex; align-items:center; gap:.65rem; text-decoration:none; color:var(--lit-blue); font-weight:800; font-size:1.05rem; }
+    .lit-brand img { height:34px; }
+    .lit-links { display:none; gap:1.4rem; align-items:center; }
+    .lit-links a { color:#111827; text-decoration:none; font-weight:600; font-size:.95rem; }
+    .lit-links a:hover { color:var(--lit-blue); }
+    .lit-cta-nav { background:linear-gradient(90deg,var(--lit-orange),var(--lit-flame) 55%,var(--lit-pink)); color:#fff !important; padding:.55rem 1rem; border-radius:.6rem; font-weight:700 !important; box-shadow:0 6px 14px rgba(240,90,60,.25); }
+    @media (min-width:900px) { .lit-links { display:flex; } }
+
+    .crumbs { max-width:1240px; margin:0 auto; padding:1rem 1.25rem 0; font-size:12px; color:var(--muted); letter-spacing:.02em; }
+    .crumbs a { color:var(--muted); text-decoration:none; }
+    .crumbs a:hover { color:var(--lit-blue); }
+
+    .hero { max-width:1240px; margin:0 auto; padding:1.75rem 1.25rem 1rem; }
+    .hero .eyebrow { display:inline-flex; align-items:center; gap:8px; font-size:11px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:var(--lit-blue); margin-bottom:.7rem; }
+    .hero .eyebrow::before { content:""; width:20px; height:2px; background:currentColor; }
+    .hero h1 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:clamp(2.4rem,5vw,3.75rem); line-height:.98; letter-spacing:.005em; margin:0 0 .6rem; color:var(--ink); }
+    .hero p { max-width:680px; font-size:1.05rem; color:var(--ink-soft); line-height:1.6; margin:0; }
+
+    .grid-wrap { max-width:1240px; margin:0 auto; padding:1.75rem 1.25rem 2.5rem; }
+    .school-grid { display:grid; grid-template-columns:1fr; gap:1rem; }
+    @media (min-width:600px)  { .school-grid { grid-template-columns:repeat(2,1fr); } }
+    @media (min-width:1000px) { .school-grid { grid-template-columns:repeat(3,1fr); gap:1.25rem; } }
+
+    .s-card { background:#fff; border:1px solid var(--hairline); border-radius:14px; overflow:hidden; text-decoration:none; color:var(--ink); display:flex; flex-direction:column; transition:transform .1s, box-shadow .2s; position:relative; }
+    .s-card:hover { transform:translateY(-2px); box-shadow:0 14px 32px -14px rgba(15,20,40,.3); }
+    .s-card .band { height:6px; background:var(--sc); }
+    .s-card .img { aspect-ratio:3/2; background:linear-gradient(180deg,#FFFFFF 0%,#F3F1EA 100%); display:grid; place-items:center; overflow:hidden; }
+    .s-card .img img { width:100%; height:100%; object-fit:contain; padding:.85rem; }
+    .s-card .info { padding:1rem 1.15rem 1.15rem; display:flex; flex-direction:column; gap:.35rem; }
+    .s-card h2 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:1.5rem; line-height:1.05; letter-spacing:.005em; margin:0; color:var(--ink); }
+    .s-card .city { font-size:12px; color:var(--muted); font-weight:600; letter-spacing:.02em; }
+    .s-card .arrow { display:inline-flex; align-items:center; gap:6px; font-size:11.5px; font-weight:800; color:var(--sc); letter-spacing:.04em; text-transform:uppercase; margin-top:.35rem; }
+    .s-card.home::after { content:"Home team"; position:absolute; top:14px; right:14px; z-index:2; background:var(--sc); color:#fff; font-size:9px; font-weight:800; letter-spacing:.05em; text-transform:uppercase; padding:4px 9px; border-radius:999px; box-shadow:0 4px 10px rgba(0,0,0,.2); }
+
+    .note { background:rgba(240,150,0,.09); border-left:3px solid var(--lit-orange); border-radius:6px; padding:.9rem 1.1rem; margin-top:1.5rem; font-size:12.5px; line-height:1.6; color:var(--ink-soft); }
+    .note b { color:var(--ink); }
+
+    .bottom-cta { background:linear-gradient(135deg,var(--lit-blue) 0%,var(--lit-blue-2) 100%); color:#fff; padding:3rem 1.25rem; text-align:center; }
+    .bottom-cta h2 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:2.15rem; margin:0 0 .55rem; color:#fff; }
+    .bottom-cta p { color:rgba(255,255,255,.85); max-width:540px; margin:0 auto 1.4rem; font-size:1rem; line-height:1.5; }
+    .bottom-cta .cta-primary { display:inline-flex; background:linear-gradient(90deg,var(--lit-orange),var(--lit-flame) 55%,var(--lit-pink)); color:#fff; padding:14px 26px; font-weight:800; font-size:15px; border-radius:999px; text-decoration:none; box-shadow:0 8px 22px -6px rgba(240,150,0,.55); letter-spacing:.02em; }
+    .bottom-cta .cta-primary:hover { transform:translateY(-1px); }
+
+    .lit-footer { background:#0b1220; color:rgba(255,255,255,.82); padding:2.75rem 1.25rem 2rem; }
+    .lit-footer-inner { max-width:1192px; margin:0 auto; display:grid; gap:1.5rem; grid-template-columns:1fr; }
+    @media (min-width:800px) { .lit-footer-inner { grid-template-columns:1.3fr 1fr 1fr; } }
+    .lit-footer h4 { color:#fff; font-weight:800; font-size:.95rem; margin:0 0 .6rem; letter-spacing:.03em; text-transform:uppercase; }
+    .lit-footer a { color:rgba(255,255,255,.82); text-decoration:none; display:block; margin:.25rem 0; }
+    .lit-footer a:hover { color:#fff; }
+    .lit-footer-bottom { max-width:1192px; margin:2rem auto 0; padding-top:1.25rem; border-top:1px solid rgba(255,255,255,.08); color:rgba(255,255,255,.55); font-size:.85rem; text-align:center; }
+  </style>
+</head>
+<body>
+
+<header class="lit-nav">
+  <div class="lit-nav-inner">
+    <a href="/" class="lit-brand">
+      <img src="/assets/img/ChatGPT-Image-Apr-23-2026-01_50_45-PM.png" alt="Lakeside Ink &amp; Threadz"/>
+      <span>Lakeside Ink &amp; Threadz</span>
+    </a>
+    <nav class="lit-links" aria-label="Primary">
+      <a href="/services/">Services</a>
+      <a href="/gallery/">Gallery</a>
+      <a href="/business-orders/">Business Orders</a>
+      <a href="/blog/">Blog</a>
+      <a href="/contact/">Contact</a>
+      <a href="/quote/" class="lit-cta-nav">Get a Quote</a>
+    </nav>
+  </div>
+</header>
+
+<nav class="crumbs" aria-label="breadcrumb">
+  <a href="/">Home</a> &nbsp;&middot;&nbsp; <span>Schools</span>
+</nav>
+
+<section class="hero">
+  <span class="eyebrow">Custom Gear for Local Schools</span>
+  <h1>Schools we serve</h1>
+  <p>Booster clubs, athletic directors, parent groups, and student councils across the Lake Livingston region &mdash; pick your school for a page built in your colors, with a full catalog of what we can make with your mark.</p>
+</section>
+
+<section class="grid-wrap">
+  <div class="school-grid">
+
+    <a class="s-card home" href="/schools/livingston-lions/" style="--sc:#14532D;">
+      <div class="band"></div>
+      <div class="img"><img src="/assets/img/garments/richardson-112-livingston-lions-hero.png" alt="Livingston Lions"></div>
+      <div class="info">
+        <h2>Livingston Lions</h2>
+        <span class="city">Livingston, TX &middot; our home team</span>
+        <span class="arrow">See the gear &rarr;</span>
+      </div>
+    </a>
+
+    <a class="s-card" href="/schools/onalaska-wildcats/" style="--sc:#7F1D1D;">
+      <div class="band"></div>
+      <div class="img"><img src="/assets/img/garments/richardson-112-onalaska-wildcats-hero.png" alt="Onalaska Wildcats"></div>
+      <div class="info">
+        <h2>Onalaska Wildcats</h2>
+        <span class="city">Onalaska, TX &middot; 12 mi from our shop</span>
+        <span class="arrow">See the gear &rarr;</span>
+      </div>
+    </a>
+
+    <a class="s-card" href="/schools/coldspring-trojans/" style="--sc:#DC2626;">
+      <div class="band"></div>
+      <div class="img"><img src="/assets/img/garments/richardson-112-coldspring-trojans-hero.png" alt="Coldspring Trojans"></div>
+      <div class="info">
+        <h2>Coldspring Trojans</h2>
+        <span class="city">Coldspring, TX &middot; 14 mi from our shop</span>
+        <span class="arrow">See the gear &rarr;</span>
+      </div>
+    </a>
+
+    <a class="s-card" href="/schools/shepherd-pirates/" style="--sc:#1E3A8A;">
+      <div class="band"></div>
+      <div class="img"><img src="/assets/img/garments/richardson-112-shepherd-pirates-hero.png" alt="Shepherd Pirates"></div>
+      <div class="info">
+        <h2>Shepherd Pirates</h2>
+        <span class="city">Shepherd, TX &middot; 17 mi from our shop</span>
+        <span class="arrow">See the gear &rarr;</span>
+      </div>
+    </a>
+
+    <a class="s-card" href="/schools/trinity-tigers/" style="--sc:#EA580C;">
+      <div class="band"></div>
+      <div class="img"><img src="/assets/img/garments/richardson-112-trinity-tigers-hero.png" alt="Trinity Tigers"></div>
+      <div class="info">
+        <h2>Trinity Tigers</h2>
+        <span class="city">Trinity, TX &middot; 25 mi from our shop</span>
+        <span class="arrow">See the gear &rarr;</span>
+      </div>
+    </a>
+
+    <a class="s-card" href="/schools/new-waverly-bulldogs/" style="--sc:#171717;">
+      <div class="band"></div>
+      <div class="img"><img src="/assets/img/garments/richardson-112-new-waverly-bulldogs-hero.png" alt="New Waverly Bulldogs"></div>
+      <div class="info">
+        <h2>New Waverly Bulldogs</h2>
+        <span class="city">New Waverly, TX &middot; 30 mi from our shop</span>
+        <span class="arrow">See the gear &rarr;</span>
+      </div>
+    </a>
+
+    <a class="s-card" href="/schools/huntsville-hornets/" style="--sc:#14532D;">
+      <div class="band"></div>
+      <div class="img"><img src="/assets/img/garments/richardson-112-huntsville-hornets-hero.png" alt="Huntsville Hornets"></div>
+      <div class="info">
+        <h2>Huntsville Hornets</h2>
+        <span class="city">Huntsville, TX &middot; 33 mi from our shop</span>
+        <span class="arrow">See the gear &rarr;</span>
+      </div>
+    </a>
+
+    <a class="s-card" href="/schools/cleveland/" style="--sc:#DC2626;">
+      <div class="band"></div>
+      <div class="img"><img src="/assets/img/garments/richardson-112-cleveland-hero.png" alt="Cleveland HS"></div>
+      <div class="info">
+        <h2>Cleveland HS</h2>
+        <span class="city">Cleveland, TX &middot; 34 mi from our shop</span>
+        <span class="arrow">See the gear &rarr;</span>
+      </div>
+    </a>
+
+    <a class="s-card" href="/schools/willis-wildkats/" style="--sc:#6B21A8;">
+      <div class="band"></div>
+      <div class="img"><img src="/assets/img/garments/richardson-112-willis-wildkats-hero.png" alt="Willis Wildkats"></div>
+      <div class="info">
+        <h2>Willis Wildkats</h2>
+        <span class="city">Willis, TX &middot; 38 mi from our shop</span>
+        <span class="arrow">See the gear &rarr;</span>
+      </div>
+    </a>
+
+  </div>
+
+  <p class="note"><b>Real school marks used with district permission.</b> Kristen confirms per-order production permission at the quote stage. Don't see your school? <a href="/contact/">Send us a note</a> &mdash; we're adding schools as boosters &amp; ADs reach out.</p>
+</section>
+
+<section class="bottom-cta">
+  <h2>Ready to see it in your team's colors?</h2>
+  <p>Send us your artwork, quantity, and which pieces you want. Kristen writes your quote by hand &mdash; usually same day.</p>
+  <a class="cta-primary" href="/quote/">Get Your Quote &rarr;</a>
+</section>
+
+<footer class="lit-footer">
+  <div class="lit-footer-inner">
+    <div>
+      <h4>Lakeside Ink &amp; Threadz</h4>
+      <p style="margin:.25rem 0 .75rem;">Custom embroidery, DTF printing, and branded apparel &mdash; right here on Lake Livingston.</p>
+      <p style="margin:0;color:rgba(255,255,255,.7);">Twin Creeks Dr, Livingston, TX 77351</p>
+    </div>
+    <div>
+      <h4>Talk to us</h4>
+      <a href="tel:+13469885449">(346) 988-5449</a>
+      <a href="mailto:hello@lakesidethreadz.com">hello@lakesidethreadz.com</a>
+      <a href="/quote/">Get a quote &rarr;</a>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="/services/">Services</a>
+      <a href="/gallery/">Gallery</a>
+      <a href="/business-orders/">Business Orders</a>
+      <a href="/blog/">Blog</a>
+      <a href="/contact/">Contact</a>
+    </div>
+  </div>
+  <p class="lit-footer-bottom">&copy; Lakeside Ink &amp; Threadz &middot; Family-run on Lake Livingston</p>
+</footer>
+
+</body>
+</html>

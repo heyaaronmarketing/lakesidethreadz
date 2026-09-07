@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Shop &middot; Lakeside Ink &amp; Threadz</title>
+  <meta name="description" content="Custom embroidered and printed apparel &mdash; trucker hats, tees, hoodies, polos, dad hats, beanies. Handmade in Livingston, TX by Kristen at Lakeside Ink &amp; Threadz.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Nunito:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <style>
+    :root {
+      --lit-blue:#001E78; --lit-blue-2:#0033AA;
+      --lit-orange:#F09600; --lit-flame:#F05A3C; --lit-pink:#E10078;
+      --ink:#0F1428; --ink-soft:#3F4560; --muted:#8A8FA0;
+      --ground:#FAFAF7; --surface:#FFFFFF; --surface-alt:#F3F1EA;
+      --hairline:#E4E1D7;
+    }
+    * { box-sizing:border-box; }
+    html, body { margin:0; padding:0; }
+    body { font-family:'Nunito',system-ui,sans-serif; color:var(--ink); background:var(--ground); -webkit-font-smoothing:antialiased; overflow-x:hidden; }
+    a { color:var(--lit-blue); }
+    img { max-width:100%; display:block; }
+
+    .lit-nav { position:sticky; top:0; z-index:40; background:rgba(255,255,255,.96); backdrop-filter:blur(8px); border-bottom:1px solid #eef0f6; }
+    .lit-nav-inner { max-width:1240px; margin:0 auto; padding:.9rem 1.25rem; display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+    .lit-brand { display:flex; align-items:center; gap:.65rem; text-decoration:none; color:var(--lit-blue); font-weight:800; font-size:1.05rem; }
+    .lit-brand img { height:34px; }
+    .lit-links { display:none; gap:1.4rem; align-items:center; }
+    .lit-links a { color:#111827; text-decoration:none; font-weight:600; font-size:.95rem; }
+    .lit-links a:hover { color:var(--lit-blue); }
+    .lit-cta-nav { background:linear-gradient(90deg,var(--lit-orange),var(--lit-flame) 55%,var(--lit-pink)); color:#fff !important; padding:.55rem 1rem; border-radius:.6rem; font-weight:700 !important; box-shadow:0 6px 14px rgba(240,90,60,.25); }
+    @media (min-width:900px) { .lit-links { display:flex; } }
+
+    .crumbs { max-width:1240px; margin:0 auto; padding:1rem 1.25rem 0; font-size:12px; color:var(--muted); letter-spacing:.02em; }
+    .crumbs a { color:var(--muted); text-decoration:none; }
+    .crumbs a:hover { color:var(--lit-blue); }
+
+    .shop-hero { max-width:1240px; margin:0 auto; padding:1.75rem 1.25rem 1rem; }
+    .shop-hero .eyebrow { display:inline-flex; align-items:center; gap:8px; font-size:11px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:var(--lit-blue); margin-bottom:.7rem; }
+    .shop-hero .eyebrow::before { content:""; width:20px; height:2px; background:currentColor; }
+    .shop-hero h1 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:clamp(2.4rem,5vw,3.75rem); line-height:.98; letter-spacing:.005em; margin:0 0 .6rem; color:var(--ink); }
+    .shop-hero p { max-width:640px; font-size:1.05rem; color:var(--ink-soft); line-height:1.6; margin:0; }
+
+    .shop-grid-wrap { max-width:1240px; margin:0 auto; padding:1.75rem 1.25rem 2.5rem; }
+    .shop-grid { display:grid; grid-template-columns:1fr; gap:1rem; }
+    @media (min-width:600px)  { .shop-grid { grid-template-columns:repeat(2,1fr); } }
+    @media (min-width:1000px) { .shop-grid { grid-template-columns:repeat(3,1fr); gap:1.25rem; } }
+    .p-card { background:#fff; border:1px solid var(--hairline); border-radius:14px; overflow:hidden; text-decoration:none; color:var(--ink); display:flex; flex-direction:column; transition:border-color .15s, transform .1s, box-shadow .2s; position:relative; }
+    .p-card:hover { border-color:var(--lit-blue); transform:translateY(-2px); box-shadow:0 14px 32px -14px rgba(0,30,120,.35); }
+    .p-card .p-img { aspect-ratio:3/2; background:linear-gradient(180deg,#FFFFFF 0%,#F3F1EA 100%); display:grid; place-items:center; overflow:hidden; }
+    .p-card .p-img img { width:100%; height:100%; object-fit:contain; padding:1rem; }
+    .p-card .p-info { padding:1.1rem 1.25rem 1.35rem; flex:1; display:flex; flex-direction:column; }
+    .p-card .tier { display:inline-flex; align-items:center; gap:5px; align-self:flex-start; font-size:9px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; padding:3px 8px; border-radius:4px; background:#EEF0FA; color:var(--lit-blue); margin-bottom:.55rem; }
+    .p-card .tier::before { content:""; width:5px; height:5px; border-radius:50%; background:var(--lit-blue); }
+    .p-card h2 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:1.6rem; line-height:1.05; letter-spacing:.005em; margin:0 0 .35rem; color:var(--ink); }
+    .p-card .sub { font-size:.9rem; color:var(--ink-soft); line-height:1.5; margin:0 0 .85rem; flex:1; }
+    .p-card .meta { font-size:11px; color:var(--muted); font-weight:700; letter-spacing:.05em; text-transform:uppercase; margin-bottom:.7rem; }
+    .p-card .arrow { display:inline-block; font-size:12px; font-weight:800; color:var(--lit-blue); letter-spacing:.04em; text-transform:uppercase; }
+    .p-card.flagship::after { content:"Featured"; position:absolute; top:12px; right:12px; z-index:2; background:linear-gradient(90deg,var(--lit-orange),var(--lit-flame)); color:#fff; font-size:9px; font-weight:800; letter-spacing:.06em; text-transform:uppercase; padding:4px 9px; border-radius:999px; box-shadow:0 4px 10px rgba(240,150,0,.35); }
+
+    .bottom-cta { background:linear-gradient(135deg,var(--lit-blue) 0%,var(--lit-blue-2) 100%); color:#fff; padding:3rem 1.25rem; text-align:center; }
+    .bottom-cta h2 { font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:2.15rem; margin:0 0 .55rem; color:#fff; }
+    .bottom-cta p { color:rgba(255,255,255,.85); max-width:540px; margin:0 auto 1.4rem; font-size:1rem; line-height:1.5; }
+    .bottom-cta .cta-primary { display:inline-flex; background:linear-gradient(90deg,var(--lit-orange),var(--lit-flame) 55%,var(--lit-pink)); color:#fff; padding:14px 26px; font-weight:800; font-size:15px; border-radius:999px; text-decoration:none; box-shadow:0 8px 22px -6px rgba(240,150,0,.55); letter-spacing:.02em; }
+    .bottom-cta .cta-primary:hover { transform:translateY(-1px); }
+
+    .lit-footer { background:#0b1220; color:rgba(255,255,255,.82); padding:2.75rem 1.25rem 2rem; }
+    .lit-footer-inner { max-width:1192px; margin:0 auto; display:grid; gap:1.5rem; grid-template-columns:1fr; }
+    @media (min-width:800px) { .lit-footer-inner { grid-template-columns:1.3fr 1fr 1fr; } }
+    .lit-footer h4 { color:#fff; font-weight:800; font-size:.95rem; margin:0 0 .6rem; letter-spacing:.03em; text-transform:uppercase; }
+    .lit-footer a { color:rgba(255,255,255,.82); text-decoration:none; display:block; margin:.25rem 0; }
+    .lit-footer a:hover { color:#fff; }
+    .lit-footer-bottom { max-width:1192px; margin:2rem auto 0; padding-top:1.25rem; border-top:1px solid rgba(255,255,255,.08); color:rgba(255,255,255,.55); font-size:.85rem; text-align:center; }
+  </style>
+</head>
+<body>
+
+<header class="lit-nav">
+  <div class="lit-nav-inner">
+    <a href="/" class="lit-brand">
+      <img src="/assets/img/ChatGPT-Image-Apr-23-2026-01_50_45-PM.png" alt="Lakeside Ink &amp; Threadz"/>
+      <span>Lakeside Ink &amp; Threadz</span>
+    </a>
+    <nav class="lit-links" aria-label="Primary">
+      <a href="/services/">Services</a>
+      <a href="/gallery/">Gallery</a>
+      <a href="/business-orders/">Business Orders</a>
+      <a href="/blog/">Blog</a>
+      <a href="/contact/">Contact</a>
+      <a href="/quote/" class="lit-cta-nav">Get a Quote</a>
+    </nav>
+  </div>
+</header>
+
+<nav class="crumbs" aria-label="breadcrumb">
+  <a href="/">Home</a> &nbsp;&middot;&nbsp; <span>Shop</span>
+</nav>
+
+<section class="shop-hero">
+  <span class="eyebrow">Ready-to-Customize Blanks</span>
+  <h1>Shop the Catalog</h1>
+  <p>Every piece we stock, ready to be embroidered or printed with your logo, mascot, or artwork. No minimums &mdash; one piece or a hundred. Kristen writes every quote by hand, usually same day.</p>
+</section>
+
+<section class="shop-grid-wrap">
+  <div class="shop-grid">
+
+    <a class="p-card flagship" href="/shop/trucker-hat/">
+      <div class="p-img"><img src="/assets/img/garments/richardson-112.png" alt="Trucker Hat"></div>
+      <div class="p-info">
+        <span class="tier">Premium &middot; Everyday Go-To</span>
+        <h2>Trucker Hat</h2>
+        <p class="meta">Richardson 112 &middot; 5 or 6 panel</p>
+        <p class="sub">Structured snapback with a curved bill &mdash; the hat everyone actually asks for. Cotton-poly front, mesh back, snapback closure.</p>
+        <span class="arrow">See details &rarr;</span>
+      </div>
+    </a>
+
+    <a class="p-card" href="/shop/classic-tee/">
+      <div class="p-img"><img src="/assets/img/garments/classic-tee-hero.png" alt="Classic Tee"></div>
+      <div class="p-info">
+        <span class="tier">Popular &middot; Everyday Staple</span>
+        <h2>Classic Tee</h2>
+        <p class="meta">Bella+Canvas 3001 &middot; Unisex XS&ndash;4XL</p>
+        <p class="sub">Soft ringspun cotton, modern retail fit. The shirt people actually keep wearing &mdash; from staff runs to family reunions.</p>
+        <span class="arrow">See details &rarr;</span>
+      </div>
+    </a>
+
+    <a class="p-card" href="/shop/hoodie/">
+      <div class="p-img"><img src="/assets/img/garments/hoodie-hero.png" alt="Premium Hoodie"></div>
+      <div class="p-info">
+        <span class="tier">Premium &middot; Cool-Weather Go-To</span>
+        <h2>Premium Hoodie</h2>
+        <p class="meta">Bella+Canvas 3719 &middot; Unisex XS&ndash;3XL</p>
+        <p class="sub">Sponge fleece pullover with a brushed interior. Slimmer retail cut, matching drawstrings &mdash; the hoodie people reach for.</p>
+        <span class="arrow">See details &rarr;</span>
+      </div>
+    </a>
+
+    <a class="p-card" href="/shop/polo/">
+      <div class="p-img"><img src="/assets/img/garments/polo-hero.png" alt="Performance Polo"></div>
+      <div class="p-info">
+        <span class="tier">Business-Casual Workhorse</span>
+        <h2>Performance Polo</h2>
+        <p class="meta">Core 365 88181 &middot; Unisex XS&ndash;4XL</p>
+        <p class="sub">Moisture-wicking interlock polyester. Survives a Texas summer, wrinkle-resistant, still looks sharp on camera.</p>
+        <span class="arrow">See details &rarr;</span>
+      </div>
+    </a>
+
+    <a class="p-card" href="/shop/dad-hat/">
+      <div class="p-img"><img src="/assets/img/garments/dad-hat-hero.png" alt="Dad Hat"></div>
+      <div class="p-info">
+        <span class="tier">Casual &middot; Modern Boutique</span>
+        <h2>Dad Hat</h2>
+        <p class="meta">Adams AD969 &middot; Adjustable one-size</p>
+        <p class="sub">Unstructured cotton twill with a low soft crown. Looks lived-in the day you get it &mdash; boutique-brand energy.</p>
+        <span class="arrow">See details &rarr;</span>
+      </div>
+    </a>
+
+    <a class="p-card" href="/shop/beanie/">
+      <div class="p-img"><img src="/assets/img/garments/beanie-hero.png" alt="Cuffed Beanie"></div>
+      <div class="p-info">
+        <span class="tier">Seasonal &middot; Winter Essential</span>
+        <h2>Cuffed Beanie</h2>
+        <p class="meta">Yupoong 1501KC &middot; One-size</p>
+        <p class="sub">Chunky knit with a double-layer folded cuff. Warm without being itchy &mdash; the winter piece that actually gets worn.</p>
+        <span class="arrow">See details &rarr;</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<section class="bottom-cta">
+  <h2>Ready to see it with your logo?</h2>
+  <p>Six quick picks &mdash; garment, sizes, decoration, quantity. Kristen writes your real quote by hand, usually same day.</p>
+  <a class="cta-primary" href="/quote/">Get Your Quote &rarr;</a>
+</section>
+
+<footer class="lit-footer">
+  <div class="lit-footer-inner">
+    <div>
+      <h4>Lakeside Ink &amp; Threadz</h4>
+      <p style="margin:.25rem 0 .75rem;">Custom embroidery, DTF printing, and branded apparel &mdash; right here on Lake Livingston.</p>
+      <p style="margin:0;color:rgba(255,255,255,.7);">Twin Creeks Dr, Livingston, TX 77351</p>
+    </div>
+    <div>
+      <h4>Talk to us</h4>
+      <a href="tel:+13469885449">(346) 988-5449</a>
+      <a href="mailto:hello@lakesidethreadz.com">hello@lakesidethreadz.com</a>
+      <a href="/quote/">Get a quote &rarr;</a>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="/services/">Services</a>
+      <a href="/gallery/">Gallery</a>
+      <a href="/business-orders/">Business Orders</a>
+      <a href="/blog/">Blog</a>
+      <a href="/contact/">Contact</a>
+    </div>
+  </div>
+  <p class="lit-footer-bottom">&copy; Lakeside Ink &amp; Threadz &middot; Family-run on Lake Livingston</p>
+</footer>
+
+</body>
+</html>
