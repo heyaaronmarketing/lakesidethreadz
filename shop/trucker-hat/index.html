@@ -136,8 +136,8 @@
 
     .school-tiles { display:grid; grid-template-columns:repeat(2,1fr); gap:.7rem; }
     @media (min-width:600px)  { .school-tiles { grid-template-columns:repeat(3,1fr); } }
-    @media (min-width:1000px) { .school-tiles { grid-template-columns:repeat(3,1fr); gap:.9rem; } }
-    @media (min-width:1240px) { .school-tiles { grid-template-columns:repeat(3,1fr); } }
+    @media (min-width:900px)  { .school-tiles { grid-template-columns:repeat(4,1fr); gap:.85rem; } }
+    @media (min-width:1200px) { .school-tiles { grid-template-columns:repeat(5,1fr); gap:.9rem; } }
 
     .school-tile { position:relative; background:#fff; border:2px solid var(--hairline); border-radius:12px; cursor:pointer; padding:0; text-align:center; overflow:hidden; transition:border-color .15s, transform .1s, box-shadow .2s; display:flex; flex-direction:column; }
     .school-tile:hover { border-color:var(--lit-blue); transform:translateY(-2px); box-shadow:0 10px 22px -12px rgba(0,30,120,.35); }
@@ -323,6 +323,10 @@
       <button class="school-tile" data-slug="cleveland" data-name="Cleveland HS" data-city="Cleveland" data-lat="30.3410" data-lng="-95.0855" data-color="#DC2626">
         <div class="school-img"><img src="/assets/img/garments/richardson-112-cleveland-hero.png" alt="Cleveland HS preview"></div>
         <div class="school-info"><span class="name">Cleveland HS</span><span class="city">Cleveland, TX &middot; 34 mi</span></div>
+      </button>
+      <button class="school-tile" data-slug="splendora-wildcats" data-name="Splendora Wildcats" data-city="Splendora" data-lat="30.2296" data-lng="-95.1622" data-color="#DC2626">
+        <div class="school-img"><img src="/assets/img/garments/richardson-112-splendora-wildcats-hero.png" alt="Splendora Wildcats preview"></div>
+        <div class="school-info"><span class="name">Splendora Wildcats</span><span class="city">Splendora, TX &middot; 36 mi</span></div>
       </button>
       <button class="school-tile" data-slug="willis-wildkats" data-name="Willis Wildkats" data-city="Willis" data-lat="30.4127" data-lng="-95.4785" data-color="#6B21A8">
         <div class="school-img"><img src="/assets/img/garments/richardson-112-willis-wildkats-hero.png" alt="Willis Wildkats preview"></div>
