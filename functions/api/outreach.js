@@ -122,6 +122,12 @@ function pickHook(category) {
 }
 
 function renderTouch(n, p, unsubUrl) {
+  // School districts get a dedicated warm-intro sequence — permission for
+  // logo/mark use is already in place with each district's comms office, so
+  // the touch shows them the landing page + invites intros to boosters/ADs.
+  if ((p.category || '').toLowerCase() === 'school-district') {
+    return renderSchoolTouch(n, p, unsubUrl);
+  }
   const org = p.org || 'your team';
   const first = (p.name || '').split(' ')[0] || 'there';
   const hook = pickHook(p.category);
@@ -185,6 +191,89 @@ Don't want these? Unsubscribe: ${unsubUrl}`;
   const text = b.text + footerText;
   let html = textToHtml(text);
   // Replace the linkified full URL in the footer with a friendly "Unsubscribe" link.
+  html = html.replace(
+    /Don(&#39;|')t want these\? Unsubscribe: <a[^>]+>[^<]+<\/a>/,
+    `<a href="${unsubUrl}" style="color:#7a7a7a;text-decoration:underline">Unsubscribe from these emails</a>`,
+  );
+  return { subject: b.subject, text, html };
+}
+
+// ---------------------------------------------------------------------------
+// School-district specific touch sequence
+// ---------------------------------------------------------------------------
+// Sent to superintendents, comms directors, ADs, band directors, principals
+// at districts where Kristen has already confirmed logo-use permission with
+// the comms office. Tone is warm-intro (not cold pitch) and points to the
+// school's dedicated /schools/<slug>/ landing page.
+//
+// Required prospect fields for schools:
+//   category: 'school-district'
+//   landing_page: '/schools/<slug>/' (rendered as https://SITE + landing_page)
+//   org: full district name (e.g., 'Livingston ISD')
+//   mascot: singular mascot noun ('lion', 'hornet', ...) — used in copy
+//   mascot_plural: display name ('Lions', 'Hornets', ...)
+function renderSchoolTouch(n, p, unsubUrl) {
+  const first = (p.name || '').split(' ')[0] || 'there';
+  const org = p.org || 'your district';
+  const mascotPlural = p.mascot_plural || 'team';
+  const landingUrl = p.landing_page ? `${SITE}${p.landing_page}` : `${SITE}/schools/`;
+
+  const bodies = {
+    1: {
+      subject: `${mascotPlural} spirit-wear preview — Lakeside Ink & Threadz`,
+      text:
+`Hi ${first},
+
+Kristen Coats here at Lakeside Ink & Threadz in Livingston. Following up on the ${org} logo-use conversation — I put together a page you can look at any time to see what ${mascotPlural} gear looks like on real product:
+
+${landingUrl}
+
+Trucker hats, tees, hoodies, polos, dad hats, beanies — all shown embroidered with the ${org} mark you approved. Nothing is ordered from that page; it's a visual so you can see the range before any decisions.
+
+If you know the athletic booster club, band boosters, PTA, or the AD/band director would like a quote for a spirit-wear run this season, I'd love an intro (or feel free to forward this along). I write every quote by hand, usually same day, no minimums.
+
+Kristen
+Lakeside Ink & Threadz`,
+    },
+    2: {
+      subject: `Re: ${mascotPlural} spirit-wear preview`,
+      text:
+`Hi ${first},
+
+Circling back on the ${mascotPlural} preview page: ${landingUrl}
+
+Short version — if any of these come up this year, we're set up to help:
+- Coach/staff polos with the ${org} mark
+- Booster-club fundraiser stores (trucker hats + tees are the fast movers)
+- Band, FFA, Project Grad, or spirit-week merch
+- One-off staff gifts (embroidered beanies, cuffed pullovers)
+
+Reply here or text ${PHONE_DISPLAY} — happy to send a mockup for anything specific, no obligation.
+
+Kristen
+Lakeside Ink & Threadz`,
+    },
+    3: {
+      subject: `Last note — ${mascotPlural} gear whenever you're ready`,
+      text:
+`Hi ${first},
+
+Last one from me — no hard feelings if there's no fit right now. The ${mascotPlural} preview page stays live at ${landingUrl} anytime a booster or coach asks about spirit-wear.
+
+Whenever ${org} does need custom gear, we're right here in Livingston. Text ${PHONE_DISPLAY} or ${SITE}/quote — real quote by hand, usually same day.
+
+Kristen
+Lakeside Ink & Threadz`,
+    },
+  };
+  const b = bodies[n] || bodies[1];
+  const footerText = `
+
+—
+${ADDRESS_LINE}
+Don't want these? Unsubscribe: ${unsubUrl}`;
+  const text = b.text + footerText;
+  let html = textToHtml(text);
   html = html.replace(
     /Don(&#39;|')t want these\? Unsubscribe: <a[^>]+>[^<]+<\/a>/,
     `<a href="${unsubUrl}" style="color:#7a7a7a;text-decoration:underline">Unsubscribe from these emails</a>`,
@@ -323,6 +412,8 @@ export async function prospectsPost({ request, env }) {
     await env.STATUS.put(key, JSON.stringify({
       email: p.email.trim(), name: p.name || '', org: p.org || '', category: p.category || '',
       city: p.city || '', lane: p.lane || '', sub_type: p.sub_type || '', source_url: p.source_url || '',
+      // Schools lane extras: which /schools/<slug>/ page to link + mascot noun for copy.
+      landing_page: p.landing_page || '', mascot: p.mascot || '', mascot_plural: p.mascot_plural || '',
       status: 'active', touches: [], added: Date.now(),
     }));
     added++;
