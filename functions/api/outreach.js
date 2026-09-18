@@ -1100,38 +1100,41 @@ export async function testBlastPost({ request, env, ctx }) {
     mascot_plural: body.mascot_plural || '',
   };
   const DAY_LABELS = [0, 4, 9];
-  ctx.waitUntil((async () => {
-    let idx = 0;
-    for (let touchIdx = 0; touchIdx < 3; touchIdx++) {
-      for (const email of emails) {
-        // 2s between sends (was 60s, which blew past the Worker's ~30s
-        // waitUntil budget and killed touches #2 + #3 mid-run).
-        if (idx > 0) await new Promise(r => setTimeout(r, 2000));
-        idx++;
-        const unsubUrl = `${SITE}/api/outreach/unsub?e=${btoa(email.toLowerCase())}`;
-        const msg = renderTouch(touchIdx + 1, { ...p, email }, unsubUrl);
-        msg.subject = `[Test: Day ${DAY_LABELS[touchIdx]}] ${msg.subject}`;
-        try {
-          await fetch('https://api.resend.com/emails', {
-            method: 'POST',
-            headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              from: FROM,
-              to: [email],
-              subject: msg.subject,
-              text: msg.text,
-              html: msg.html,
-              headers: {
-                'List-Unsubscribe': `<${unsubUrl}>`,
-                'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click',
-              },
-            }),
-          });
-        } catch (e) { /* best-effort */ }
-      }
+  // Fire all touches for all recipients IN PARALLEL. No sleep between sends,
+  // no waitUntil budget concerns — Resend returns in ~500ms per call, so
+  // even 30 sends complete in about 1s. Await the whole batch so the curl
+  // response reports which touches actually made it through.
+  const jobs = [];
+  for (let touchIdx = 0; touchIdx < 3; touchIdx++) {
+    for (const email of emails) {
+      const unsubUrl = `${SITE}/api/outreach/unsub?e=${btoa(email.toLowerCase())}`;
+      const msg = renderTouch(touchIdx + 1, { ...p, email }, unsubUrl);
+      msg.subject = `[Test: Day ${DAY_LABELS[touchIdx]}] ${msg.subject}`;
+      jobs.push(
+        fetch('https://api.resend.com/emails', {
+          method: 'POST',
+          headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            from: FROM,
+            to: [email],
+            subject: msg.subject,
+            text: msg.text,
+            html: msg.html,
+            headers: {
+              'List-Unsubscribe': `<${unsubUrl}>`,
+              'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click',
+            },
+          }),
+        })
+          .then(async r => ({ email, touch: touchIdx + 1, status: r.status, body: r.ok ? null : (await r.text()).slice(0, 300) }))
+          .catch(e => ({ email, touch: touchIdx + 1, status: 0, body: String(e).slice(0, 300) })),
+      );
     }
-  })());
-  return json({ ok: true, queued: emails.length * 3, spacing_seconds: 60, recipients: emails });
+  }
+  const results = await Promise.all(jobs);
+  const sent = results.filter(r => r.status >= 200 && r.status < 300).length;
+  const failed = results.filter(r => !(r.status >= 200 && r.status < 300));
+  return json({ ok: failed.length === 0, sent, failed_count: failed.length, failed, recipients: emails });
 }
 
 const RENDER_LOGIN_HTML = `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dashboard · Access required</title><style>body{margin:0;font-family:-apple-system,sans-serif;background:#001E78;color:#fff;display:grid;place-items:center;min-height:100vh}form{background:#fff;color:#222;padding:32px;border-radius:14px;max-width:400px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,.3)}h1{margin:0 0 8px;color:#001E78;font-size:22px}p{color:#666;font-size:14px;margin:0 0 20px}input{width:100%;padding:12px;border:1px solid #ccc;border-radius:8px;font-size:15px;margin-bottom:12px;font-family:monospace}button{width:100%;padding:12px;background:linear-gradient(90deg,#F09600,#E10078);color:#fff;border:0;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer}</style></head><body><form onsubmit="event.preventDefault();window.location.href='/dashboard?key='+encodeURIComponent(this.k.value)"><h1>Dashboard access</h1><p>Paste your dashboard key to view outreach progress.</p><input name="k" placeholder="Dashboard key" required autofocus><button type="submit">View dashboard</button></form></body></html>`;
