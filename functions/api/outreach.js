@@ -337,11 +337,23 @@ export async function runOutreach(env) {
   let sent = 0;
   const results = [];
 
+  // Schools lane launch date + CC config (per Aaron 2026-09-18):
+  // - Skip school-district prospects until this date so the cron doesn't
+  //   fire before the campaign is meant to start (bump this string to
+  //   reschedule; ISO date, evaluated against today in the Worker's UTC).
+  // - CC hello@aaron.chat on every school-district send so Aaron sees the
+  //   full thread and any reply-alls copy him too.
+  const SCHOOLS_START_DATE = '2026-09-23'; // Wednesday
+  const SCHOOLS_CC = 'hello@aaron.chat';
+
   for (const p of prospects) {
     if (log.sent + sent >= cap) break;
     if (p.status !== 'active') continue;
     if (!p.email || !p.email.includes('@')) continue;
     if (await suppressed(env, p.email)) continue;
+
+    const isSchool = (p.category || '').toLowerCase() === 'school-district';
+    if (isSchool && today < SCHOOLS_START_DATE) continue;
 
     const touches = p.touches || [];
     const nextN = touches.length + 1;
@@ -359,6 +371,7 @@ export async function runOutreach(env) {
       body: JSON.stringify({
         from: FROM,
         to: [p.email],
+        cc: isSchool ? [SCHOOLS_CC] : undefined,
         reply_to: env.OUTREACH_REPLY_TO || undefined,
         subject: msg.subject,
         text: msg.text,
