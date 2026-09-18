@@ -1093,13 +1093,20 @@ export async function testBlastPost({ request, env, ctx }) {
     name: body.name || 'Aaron',
     org: body.org || 'your team',
     category: body.category || 'professional-services',
+    // Extras used by the schools warm-intro sequence — pass them through so
+    // the test blast renders identically to a real school-district send.
+    landing_page: body.landing_page || '',
+    mascot: body.mascot || '',
+    mascot_plural: body.mascot_plural || '',
   };
   const DAY_LABELS = [0, 4, 9];
   ctx.waitUntil((async () => {
     let idx = 0;
     for (let touchIdx = 0; touchIdx < 3; touchIdx++) {
       for (const email of emails) {
-        if (idx > 0) await new Promise(r => setTimeout(r, 60000));
+        // 2s between sends (was 60s, which blew past the Worker's ~30s
+        // waitUntil budget and killed touches #2 + #3 mid-run).
+        if (idx > 0) await new Promise(r => setTimeout(r, 2000));
         idx++;
         const unsubUrl = `${SITE}/api/outreach/unsub?e=${btoa(email.toLowerCase())}`;
         const msg = renderTouch(touchIdx + 1, { ...p, email }, unsubUrl);
