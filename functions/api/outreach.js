@@ -345,6 +345,11 @@ export async function runOutreach(env) {
   //   full thread and any reply-alls copy him too.
   const SCHOOLS_START_DATE = '2026-09-23'; // Wednesday
   const SCHOOLS_CC = 'hello@aaron.chat';
+  // KILL SWITCH (Aaron 2026-10-23): hard-pause the schools lane. Set back to
+  // false to resume — prospect records + their touch history are preserved
+  // in KV, so a resume picks up each school prospect's cadence where it
+  // left off.
+  const SCHOOLS_PAUSED = true;
 
   for (const p of prospects) {
     if (log.sent + sent >= cap) break;
@@ -353,6 +358,7 @@ export async function runOutreach(env) {
     if (await suppressed(env, p.email)) continue;
 
     const isSchool = (p.category || '').toLowerCase() === 'school-district';
+    if (isSchool && SCHOOLS_PAUSED) continue;
     if (isSchool && today < SCHOOLS_START_DATE) continue;
 
     const touches = p.touches || [];
