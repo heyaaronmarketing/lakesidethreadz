@@ -31,7 +31,7 @@
     {
       "binding": "DB",
       "database_name": "lakesidethreadz-case-study",
-      "database_id": "REPLACE_WITH_D1_ID"
+      "database_id": "4e8f6fb0-d8a6-4362-986e-1d742e8c2e07"
     }
   ],
   // Cron triggers:
