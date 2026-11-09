@@ -1,3 +1,11 @@
+# ---- Security headers (apply to everything) ----
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# ---- Cache policy ----
 # Static asset long-term cache; HTML revalidates
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
@@ -13,3 +21,9 @@
 /blog/feed.xml
   Content-Type: application/rss+xml; charset=utf-8
   Cache-Control: public, max-age=600
+
+# IndexNow verification file — must be served as text/plain, no-cache
+# so re-verifications hit fresh bytes.
+/a97321ae687a3df3c2756734fe4bef42.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=300

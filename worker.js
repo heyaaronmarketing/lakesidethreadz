@@ -19,6 +19,9 @@ import {
   runNewsletter, newsletterContentPost, newsletterStatsGet, newsletterRunGet,
   dashboardGet, testBlastPost,
 } from "./functions/api/outreach.js";
+import {
+  handleCaseStudyJson, handleAdmin, runCaseStudyRefresh, maybeLogTraffic,
+} from "./functions/api/case-study.js";
 
 const SIMPLE_ENDPOINTS = new Set(["/api/contact", "/api/quote"]);
 const RICH_QUOTE_ENDPOINT = "/api/submit-quote";
@@ -57,10 +60,24 @@ export default {
     const url = new URL(request.url);
     const path = url.pathname;
 
+    // Fire-and-forget server-side traffic log for AI bot crawls + external
+    // (AI engine / search engine) referrals. Skips static assets, /api/,
+    // /admin/, /cdn-cgi/. Never blocks the response. See case-study.js.
+    maybeLogTraffic(request, env, ctx, url);
+
     // Legacy town-page 301s — handle both with-slash and without-slash forms.
     const redirTarget = LEGACY_REDIRECTS[path] || LEGACY_REDIRECTS[path + "/"];
     if (redirTarget) {
       return new Response(null, { status: 301, headers: { Location: redirTarget } });
+    }
+
+    // Case-study pipeline — public feed + admin UI.
+    if (path === "/api/case-study.json") {
+      if (request.method === "GET") return handleCaseStudyJson(env);
+      return new Response("Method not allowed", { status: 405 });
+    }
+    if (path === "/admin" || path.startsWith("/admin/")) {
+      return handleAdmin(request, env, url);
     }
 
     // Edge geo lookup for the school-picker test on /shop/trucker-hat/.
@@ -92,16 +109,31 @@ export default {
     const outreachHandler = OUTREACH_ROUTES[`${request.method} ${path}`];
     if (outreachHandler) return await outreachHandler({ request, env, ctx });
 
+    // Trailing-slash normalization — 301 Permanent so Google consolidates
+    // ranking signals. CF Workers Static Assets defaults to 307 which
+    // Google treats as temporary → duplicate URLs rank separately.
+    // GET/HEAD only, skip extensioned paths (foo.png, foo.xml, etc.).
+    if (
+      (request.method === "GET" || request.method === "HEAD") &&
+      !path.endsWith("/") &&
+      !path.slice(path.lastIndexOf("/")).includes(".")
+    ) {
+      return Response.redirect(url.origin + path + "/" + url.search + url.hash, 301);
+    }
+
     return env.ASSETS.fetch(request);
   },
 
   // Cron triggers (defined in wrangler.jsonc):
   //   "0 15 * * 2-5"  — Tue-Fri at 15:00 UTC (10am CT) → outreach batch (max DAILY_CAP)
   //   "0 16 1 * *"    — 1st of month, 16:00 UTC (11am CT) → seasonal newsletter
+  //   "0 13 * * 1"    — Monday 13:00 UTC (7am CT) → case-study refresh (GSC + Bing + DataForSEO + IndexNow)
   async scheduled(event, env, ctx) {
     // Distinguish crons by cron string.
     if (event.cron === "0 16 1 * *") {
       ctx.waitUntil(runNewsletter(env));
+    } else if (event.cron === "0 13 * * 1") {
+      ctx.waitUntil(runCaseStudyRefresh(env, { source: "cron", trigger: event.cron }));
     } else {
       ctx.waitUntil(runOutreach(env));
     }

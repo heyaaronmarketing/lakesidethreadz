@@ -24,18 +24,40 @@
   "kv_namespaces": [
     { "binding": "STATUS", "id": "265c6c8b029e4663967ebd576cb328f3" }
   ],
-  // Cron triggers — outreach runs Tue-Fri at 10am CT; newsletter on the 1st.
+  // D1 — powers the case-study pipeline (GSC + Bing + DataForSEO rankings
+  // + AI bot crawl log + leads table). Create the DB and paste the id:
+  //   npx wrangler d1 create lakesidethreadz-case-study
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "lakesidethreadz-case-study",
+      "database_id": "REPLACE_WITH_D1_ID"
+    }
+  ],
+  // Cron triggers:
+  //   Tue-Fri 10am CT  → outreach batch
+  //   1st of month 11am CT → seasonal newsletter
+  //   Monday 7am CT   → case-study refresh (GSC + Bing + DataForSEO + IndexNow)
   "triggers": {
     "crons": [
       "0 15 * * 2-5",
-      "0 16 1 * *"
+      "0 16 1 * *",
+      "0 13 * * 1"
     ]
   }
   // Set these as SECRETS in the Worker dashboard (Settings → Variables and Secrets):
-  //   RESEND_API_KEY       — Resend API key (already set for the contact form)
-  //   OUTREACH_KEY         — random string; gates admin outreach endpoints
-  //   DASHBOARD_KEY        — random string; gates the read-only /dashboard
-  // Optional dashboard vars:
+  //   RESEND_API_KEY           — Resend API key (already set)
+  //   OUTREACH_KEY             — random string; gates admin outreach endpoints (already set)
+  //   DASHBOARD_KEY            — random string; gates the read-only /dashboard (already set)
+  //   ADMIN_PASSWORD           — strong password for /admin login (case-study UI)
+  //   SESSION_SECRET           — 64+ random bytes: `openssl rand -hex 32`
+  //   GSC_SERVICE_ACCOUNT_JSON — full JSON key from Google Cloud service account
+  //                              with Search Console API enabled + Owner permission
+  //                              on the GSC property for lakesidethreadz.com
+  //   BING_API_KEY             — 32-char hex from bing.com/webmasters → Settings → API Access
+  //   DATAFORSEO_LOGIN         — DataForSEO account email (hello@aaron.chat)
+  //   DATAFORSEO_PASSWORD      — DataForSEO API password (from ~/.dataforseo)
+  // Optional vars:
   //   CONTACT_CC        (comma-separated CC list on contact/quote emails)
   //   OUTREACH_REPLY_TO (override Reply-To on outreach emails)
 }
