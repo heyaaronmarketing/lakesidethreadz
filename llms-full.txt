@@ -1,0 +1,780 @@
+# Lakeside Ink & Threadz — llms-full.txt
+# Source of truth: https://lakesidethreadz.com
+# This file is the long-form AI-engine grounding doc. Every Q&A, every
+# service, and the business entity are enumerated below in plain text
+# so ChatGPT search, Perplexity, Bing Copilot, Google AI Overviews, and
+# Claude can cite them without parsing JSON-LD.
+
+# =====================================================================
+# The business
+# =====================================================================
+
+## Business entity
+
+Name: Lakeside Ink & Threadz
+Description: Custom embroidery, DTF printing, business branding, logo design, and promotional items in Onalaska, TX serving the Lake Livingston area.
+Telephone: 346-988-5449
+Email: hello@lakesidethreadz.com
+Address: Livingston, TX, 77351
+Hours (Monday, Tuesday, Wednesday, Thursday, Friday): 09:00–17:00
+Hours (Saturday): 09:00–17:00
+Website: https://lakesidethreadz.com
+Founder: Kristen Coats — Owner
+
+# =====================================================================
+# Frequently asked questions (by page)
+# =====================================================================
+
+## Custom Apparel for Businesses & Teams | Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/business-orders/
+
+Q: Do you have a minimum order for business uniforms?
+A: No minimum. We'll embroider a single polo if that's all you need. Volume discounts start at 12 pieces (8% off) and go to 25% off at 100+.
+
+Q: How long does a business order take?
+A: Standard turnaround is 5-10 business days from proof approval. Rush orders (2-3 days) available at +25% for tight deadlines.
+
+Q: Can I set up an ongoing uniform program?
+A: Yes. Once we've digitized your logo and confirmed the pieces you use, reorders are a single text away. We keep your specs on file so every reorder matches the last.
+
+Q: Do you work with medical offices, doctors, and dentists?
+A: Yes — we embroider polos, scrubs, jackets, and lab coats for medical, dental, chiropractic, and veterinary offices around Onalaska and Livingston. Add staff names for $3/piece.
+
+Q: Can you handle sports teams and school groups?
+A: Absolutely. Team uniforms with player names and numbers, coach polos, booster club fan gear, and warmups. Order 3-4 weeks before the season for a stress-free timeline.
+
+Q: Do you do church and ministry apparel?
+A: Yes — VBS shirts, mission-trip polos, youth-group hats, staff uniforms, and ministry team gear. Order 3 weeks before your event for standard turnaround.
+
+Q: Do you offer net-30 invoicing for businesses?
+A: For established business accounts with recurring orders, yes. Reach out at hello@lakesidethreadz.com and we'll set up terms.
+
+## Contact Us | Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/contact/
+
+Q: How do I get started with an order?
+A: Simply fill out the contact form or use our price estimator to get a ballpark quote. We'll follow up within 1 business day to discuss details and finalize your order.
+
+Q: Do you require a deposit?
+A: For most orders, we require a 50% deposit to begin work. The remaining balance is due upon completion, before pickup or delivery.
+
+Q: Can I see a proof before production?
+A: Absolutely. We provide digital proofs for approval before starting any embroidery, DTF printing, or design work. No surprises.
+
+Q: Do you offer rush orders?
+A: Rush orders may be available depending on current workload. Contact us to discuss your timeline — rush fees may apply.
+
+Q: What's your service area?
+A: We are a home-based studio in Onalaska, TX. Orders are placed online or by phone at 346-988-5449. Local pickup is available by appointment. We do not have a walk-in storefront.
+
+## Mobile Spray Tanning Onalaska TX | Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/glow/
+
+Q: How long does a spray tan last?
+A: A typical spray tan lasts 5-10 days with proper care. Moisturizing daily and avoiding exfoliating products will help extend the life of your tan.
+
+Q: What should I do at least 24 hours before my tan?
+A: Exfoliate, exfoliate, exfoliate! 24 hours before your session, use a body scrub to clear away dry, dead skin cells. This ensures even color and long-lasting results. Avoid bar soaps, high-pH shower products, or in-shower moisturizers as these can interfere with the DHA bronzing reaction. Also avoid shaving, waxing, or depilatory creams for at least 24 hours prior.
+
+Q: What should I do the day of my tan?
+A: Skip the lotion and makeup — or remove makeup before your session for an even face tan. Use deodorant sparingly (or not at all) as it can interact with the spray and turn your armpits green. Wear loose-fitting, dark cotton clothing and remove all jewelry until your tan is set.
+
+Q: When can I rinse after my spray tan?
+A: You have up to 24 hours before your initial rinse. If you feel your tan is dark enough, you can rinse anywhere from 4–24 hours after spraying using lukewarm water only. Do not use shampoos, conditioner, or soaps during the first rinse. This sets the tan and you may see it darken slightly afterward.
+
+Q: How long until I can shower?
+A: For regular solution, wait 8-12 hours before your first rinse. If you choose our Rapid Tan add-on, you can shower in just 2-4 hours.
+
+Q: Will the spray tan look orange?
+A: Absolutely not! We customize your shade based on your skin tone and desired results. Our premium solutions are designed to give you a natural, golden-bronze glow — never orange.
+
+Q: What if I'm nervous or it's my first time?
+A: No worries at all! We guide you through every step of the process. It's quick, painless, and most clients say it's actually relaxing. We'll make sure you're comfortable the entire time.
+
+Q: Do you travel outside the listed service area?
+A: Yes! We may be able to accommodate locations outside our standard service area for an additional travel fee. Contact us with your location and we'll let you know.
+
+Q: Can I get a spray tan while pregnant?
+A: We recommend consulting with your doctor first. We use pregnancy-safe, DHA-based solutions, but your healthcare provider can best advise based on your individual situation.
+
+Q: How do I book?
+A: Use our booking form below or give us a call/text. We typically respond within a few hours and can often accommodate same-week appointments.
+
+## Lakeside Ink & Threadz | Custom Embroidery in Onalaska TX
+URL: https://lakesidethreadz.com/
+
+Q: Do you offer custom embroidery near Onalaska, TX?
+A: Yes! Lakeside Ink & Threadz is located in Onalaska, Texas and offers custom embroidery on hats, shirts, jackets, patches, and other fabric items. We serve customers throughout East Texas including Livingston, Coldspring, Huntsville, Cleveland, Splendora, Lufkin, Point Blank, and Shepherd.
+
+Q: What is DTF printing and do you offer it locally?
+A: DTF stands for Direct-to-Film. It's a printing method that transfers full-color designs directly onto fabric — perfect for detailed, photographic, or multi-color artwork on shirts. Yes, L.I.T. offers DTF printing locally in Onalaska, TX.
+
+Q: Can you help with business branding and logo design?
+A: Absolutely. We offer full business branding services including original logo design, branded uniforms, custom apparel packs, and promotional items — perfect for local businesses wanting a professional, cohesive look.
+
+Q: How do I place a custom order?
+A: Use our online quote form, send us a message on Facebook or Instagram, or contact us directly. We'll follow up within 24 hours to discuss your order details, quantities, and pricing.
+
+Q: How do I know what something will cost before I commit?
+A: Use our free instant price estimator on the Contact page. Select your service and quantity and get a ballpark in under 60 seconds — no commitment required.
+
+## Ministry Apparel | Custom Church, VBS & Youth-Group Shirts
+URL: https://lakesidethreadz.com/services/church-ministry-apparel/
+
+Q: Can you help design VBS shirts?
+A: We can embroider designs you provide, or help adapt your VBS theme into an embroidery-friendly format. Most VBS curriculum comes with approved artwork we can work with.
+
+Q: What's the turnaround for church orders?
+A: Standard turnaround is 7-10 business days. For VBS and major events, contact us 3-4 weeks in advance to ensure we can meet your date, especially for large orders.
+
+Q: Do you offer discounts for churches?
+A: We provide competitive volume pricing that works for ministry budgets. Larger orders get better per-piece rates. Contact us with your quantities for exact pricing.
+
+Q: Can you embroider on bags for mission trips?
+A: Yes — tote bags, backpacks, and duffel bags all work well for embroidery. Great for mission trip giveaways or volunteer appreciation gifts.
+
+Q: Do you make staff and volunteer uniforms?
+A: Absolutely. Matching polos or shirts help identify staff during services and events. We can add church logos, ministry names, or volunteer designations.
+
+Q: Can you embroider crosses and religious symbols?
+A: Yes. We regularly embroider crosses, doves, scripture references, and other religious imagery. If you can provide the artwork, we can stitch it.
+
+Q: Can you embroider VBS shirts in time for our event?
+A: Yes — most VBS orders ship in 5–10 business days once we confirm the design. Plan to order 3 weeks before the event for a stress-free timeline. Rush orders are available at +25% if you're closer to the date.
+
+Q: What kinds of ministry apparel do you make?
+A: VBS shirts, mission-trip polos, youth-group hoodies and hats, choir robes, staff uniforms, men's and women's ministry tees, and event giveaways. Tell us about your church or ministry and we'll suggest the right pieces.
+
+## Coaches Polos | Custom Embroidered Coach Apparel
+URL: https://lakesidethreadz.com/services/coaches-polos/
+
+Q: How long do custom coaches polos take?
+A: Standard turnaround is 7-10 business days from artwork approval. Rush orders (3-5 days) available for an added fee. Larger orders over 48 pieces may need a couple extra days.
+
+Q: Can you match my school colors on the coaches polos?
+A: Yes — we stock thread in 200+ colors and can match Pantone or hex codes for your school. Send us your color reference along with your logo and we’ll match it.
+
+Q: Do you embroider names or titles on coaches polos?
+A: Absolutely. Common setups are the school mark on the left chest and the coach’s name or title (Head Coach, AD, Trainer) on the right chest or sleeve. Names run $3-5 each.
+
+Q: What’s the minimum for a coaches polo order?
+A: No minimum — we’ll stitch a single polo. Per-piece pricing drops at 12+, then again at 24, 48, and 100. Most schools order 6-15 for the coaching staff.
+
+Q: Can I mix polo styles across the staff (e.g. men’s and women’s cuts)?
+A: Yes. We’ll match the same embroidered design across whichever brands and cuts your staff picks, so the sideline still looks uniform even with different fits.
+
+Q: How long do custom coaches polos take?
+A: Standard turnaround is 7-10 business days from artwork approval. Rush orders (3-5 days) available for an added fee. Larger orders over 48 pieces may need a couple extra days.
+
+Q: Can you match my school colors on the coaches polos?
+A: Yes — we stock thread in 200+ colors and can match Pantone or hex codes for your school. Send us your color reference along with your logo and we’ll match it.
+
+Q: Do you embroider names or titles on coaches polos?
+A: Absolutely. Common setups are the school mark on the left chest and the coach’s name or title (Head Coach, AD, Trainer) on the right chest or sleeve. Names run $3-5 each.
+
+Q: What’s the minimum for a coaches polo order?
+A: No minimum — we’ll stitch a single polo. Per-piece pricing drops at 12+, then again at 24, 48, and 100. Most schools order 6-15 for the coaching staff.
+
+Q: Can I mix polo styles across the staff (e.g. men’s and women’s cuts)?
+A: Yes. We’ll match the same embroidered design across whichever brands and cuts your staff picks, so the sideline still looks uniform even with different fits.
+
+## Corporate Polos & Corporate Embroidery | Executive-Quality Logo Apparel
+URL: https://lakesidethreadz.com/services/corporate-embroidery/
+
+Q: Can you set up a company store for our employees?
+A: We can help you establish an ongoing uniform program where employees can reorder. We keep your logo on file and maintain consistent quality across all orders.
+
+Q: Do you work with companies outside the Onalaska area?
+A: Yes — we serve businesses throughout East Texas. We can ship orders or arrange pickup/delivery depending on your location.
+
+Q: Can you match our exact brand colors?
+A: Absolutely. Send us your Pantone codes or brand guidelines and we'll match your colors precisely. Consistency matters for corporate branding.
+
+Q: What's the turnaround for corporate orders?
+A: Standard turnaround is 7-10 business days. For ongoing uniform programs, we can establish regular production schedules to meet your needs.
+
+Q: Do you offer executive gift items?
+A: Yes — we embroider premium blankets, leather goods, golf accessories, and other executive-level gifts. Perfect for client appreciation or employee recognition.
+
+Q: Can you embroider items we already have?
+A: In most cases, yes. If you have existing blanks or promotional items, bring them to us and we'll add your embroidery.
+
+Q: Can you set up a recurring uniform program for our business?
+A: Yes — once we've digitized your logo and confirmed your standard pieces (polos, jackets, hats, work shirts), you can reorder by text with a single message. We keep your specs on file so every reorder matches the last one.
+
+Q: Do you offer net-30 invoicing for businesses?
+A: For established business accounts with recurring orders, yes. Reach out at (346) 988-5449 or hello@lakesidethreadz.com and we'll set up terms.
+
+## Corporate Polos | Executive-Quality Custom Embroidered Polos
+URL: https://lakesidethreadz.com/services/corporate-polos/
+
+Q: What brands of corporate polos do you carry?
+A: We source from most major brands — Nike, Peter Millar, Cutter & Buck, Port Authority, Vansport, and OGIO are common corporate picks. Tell us your budget and preferred style and we’ll show you options.
+
+Q: Can I set up a corporate polo store for my company?
+A: Yes — we set up private online stores where employees order their size directly, then we embroider and ship or bulk-deliver. Common for larger offices and multi-location companies.
+
+Q: Do you offer volume pricing on corporate polos?
+A: Yes. Per-piece pricing drops at 12, 24, 48, and 100 pieces. For ongoing corporate programs where you reorder every quarter, we hold your digitized logo file so pricing stays consistent across runs.
+
+Q: Can you embroider names or titles on corporate polos?
+A: Yes — name and title embroidery is common on the right chest or sleeve. Runs $3-5 per shirt depending on stitch count.
+
+Q: Can you match my exact brand colors on the embroidery?
+A: Yes. Send us your brand guide with Pantone or hex codes and we’ll thread-match. We’ll show you the match on the proof before we stitch the run.
+
+Q: What brands of corporate polos do you carry?
+A: We source from most major brands — Nike, Peter Millar, Cutter & Buck, Port Authority, Vansport, and OGIO are common corporate picks. Tell us your budget and preferred style and we’ll show you options.
+
+Q: Can I set up a corporate polo store for my company?
+A: Yes — we set up private online stores where employees order their size directly, then we embroider and ship or bulk-deliver. Common for larger offices and multi-location companies.
+
+Q: Do you offer volume pricing on corporate polos?
+A: Yes. Per-piece pricing drops at 12, 24, 48, and 100 pieces. For ongoing corporate programs where you reorder every quarter, we hold your digitized logo file so pricing stays consistent across runs.
+
+Q: Can you embroider names or titles on corporate polos?
+A: Yes — name and title embroidery is common on the right chest or sleeve. Runs $3-5 per shirt depending on stitch count.
+
+Q: Can you match my exact brand colors on the embroidery?
+A: Yes. Send us your brand guide with Pantone or hex codes and we’ll thread-match. We’ll show you the match on the proof before we stitch the run.
+
+## Embroidered Bags & Totes Onalaska TX | L.I.T.
+URL: https://lakesidethreadz.com/services/embroidered-bags-totes/
+
+Q: What types of bags can you embroider?
+A: Almost any fabric bag works for embroidery — canvas totes, cotton bags, nylon duffels, polyester backpacks, and more. If it's fabric, we can usually stitch on it.
+
+Q: Are embroidered bags good corporate gifts?
+A: Excellent gifts. Embroidered bags feel premium, get daily use, and provide ongoing brand exposure. Popular for client appreciation, employee gifts, and event swag.
+
+Q: Can you personalize bags with names?
+A: Absolutely. Monogrammed bags make great personal gifts. We can add names, initials, or short text to any bag.
+
+Q: What's the turnaround for bag orders?
+A: Standard turnaround is 7-10 business days. Rush orders available for tight deadlines — contact us about your event date.
+
+Q: Do you make bags for weddings and bridal parties?
+A: Yes — embroidered tote bags and cosmetic bags are popular bridesmaids gifts. We can personalize each bag with names or monograms.
+
+Q: Can you embroider cooler bags?
+A: Yes, most soft-sided cooler bags work well for embroidery. Great for company picnics, fishing tournaments, or promotional giveaways.
+
+Q: What kinds of bags can you embroider?
+A: We embroider on canvas totes, cooler bags, gym duffels, lake bags, beach totes, conference bags, and reusable shopping bags. Pricing starts at $5 per piece for promo totes and goes up with bag size and quality.
+
+Q: Are embroidered bags good for events and giveaways?
+A: Yes — bulk orders of 100+ totes drop to $7.50 per piece (25% off the single rate), making them affordable for grand openings, fishing tournaments, conferences, trade shows, and church events.
+
+## Embroidered Hats & Custom Trucker Hats | Snapbacks & Caps
+URL: https://lakesidethreadz.com/services/embroidered-hats-caps/
+
+Q: What's the difference between flat and puff embroidery?
+A: Flat embroidery lies smooth against the cap. Puff embroidery uses foam underneath to create a raised 3D effect — popular for bold logos and lettering. Both are durable; it's an aesthetic choice.
+
+Q: What hat styles do you offer?
+A: We stock trucker caps, snapbacks, structured and unstructured caps, flexfits, dad hats, bucket hats, and beanies. Richardson, Yupoong, and other quality brands available.
+
+Q: Can you embroider the side or back of a hat?
+A: Yes — side embroidery is popular for secondary logos or text. Back embroidery works great for website URLs or taglines.
+
+Q: How many colors can you embroider on one hat?
+A: As many as your design needs. Thread color changes don't add to the price — we charge by stitch count, not color count.
+
+Q: Do you make hats for fishing tournaments?
+A: All the time. We've done tournament hats for groups across Lake Livingston. Custom caps make great participant gifts and sponsor recognition items.
+
+Q: What's the minimum order for custom hats?
+A: Six hats is our soft minimum for the best per-piece pricing. We can do smaller orders, but the setup makes it less economical below six.
+
+Q: How long does a hat order take?
+A: Standard turnaround is 7-10 business days from approval. Rush orders available — contact us if you have a deadline.
+
+Q: What kinds of hats can you embroider?
+A: We embroider on snapbacks, flexfits, truckers, fitted caps, dad hats, beanies, and visors. Most blank styles run $13 and up depending on quality. You can supply your own caps or pick from our stock.
+
+Q: Will the embroidery hold up to washing and weather?
+A: Yes — our embroidery uses industrial polyester thread that holds color and stitching through hundreds of washes and works fine in sun, sweat, and lake water. We recommend cold wash and air-dry for the longest life.
+
+## Embroidered Polos | Custom Logo Polos Stitched in Texas
+URL: https://lakesidethreadz.com/services/embroidered-polos/
+
+Q: How long do embroidered polos take?
+A: Standard turnaround is 7-10 business days from approval. Rush orders (3-5 days) are available for an additional fee. Large orders over 48 pieces may need extra time.
+
+Q: Can I supply my own polo shirts?
+A: Absolutely. Bring us your blanks and we'll embroider them. We can also source polos for you from trusted suppliers — just let us know your budget and preferred style.
+
+Q: What file format do you need for my logo?
+A: We accept JPG, JPEG, and SVG files. Vector files (SVG) produce the cleanest embroidery, but we can work with high-resolution JPGs too. We'll handle the digitizing — that's converting your image to stitch format.
+
+Q: Is there a minimum order for embroidered polos?
+A: No minimum. We'll embroider a single polo if that's what you need. That said, per-piece pricing drops significantly at 12+ units.
+
+Q: Can you add individual names to each polo?
+A: Yes — we offer name embroidery for $3-5 per shirt. Common placements are right chest opposite the logo, or on the sleeve.
+
+Q: Do you embroider polos for businesses outside Onalaska?
+A: We serve the entire Lake Livingston area including Livingston, Coldspring, Huntsville, Cleveland, Splendora, and Lufkin. Contact us to arrange pickup or delivery.
+
+Q: What colors can you embroider?
+A: We stock thread in over 200 colors and can match virtually any brand color. Send us your Pantone or hex code and we'll get it right.
+
+Q: How long does it take to embroider polos?
+A: Most polo orders ship in 5–10 business days from the time we receive your logo and confirm the design. Larger orders (50+) may add a few days. Rush orders are available at +25% for 2–3 business day turnaround.
+
+Q: What's the minimum order for embroidered polos?
+A: There's no minimum — we'll embroider a single polo for you. Volume discounts kick in at 12 pieces (8% off), with bigger savings at 24 (14% off), 48 (20% off), and 100+ (25% off).
+
+## Embroidery Digitizing Onalaska TX | Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/services/embroidery-digitizing/
+
+Q: What is embroidery digitizing?
+A: Digitizing converts your logo from an image file into stitch instructions — telling the embroidery machine exactly where to place each stitch, in what order, and with which thread colors.
+
+Q: Why does my logo need to be digitized?
+A: Embroidery machines can't read image files directly. They need a specific stitch file format that maps out the thread path. Every logo must be digitized before it can be embroidered.
+
+Q: Do I pay for digitizing every time I order?
+A: No. Digitizing is a one-time fee. Once we create your stitch file, we store it and use it for all future orders at no additional digitizing cost.
+
+Q: What file format do you need for my logo?
+A: We accept JPG, JPEG, and SVG files. Vector files (SVG, AI, EPS) produce the cleanest results, but we can work with high-resolution images too.
+
+Q: Can you provide just the stitch file without embroidery?
+A: Yes. If you have your own embroidery equipment or another provider, we can deliver just the digitized stitch file.
+
+Q: How long does digitizing take?
+A: Most logos are digitized within 24-48 hours. Complex designs may take longer. We'll provide a mockup before stitching so you can approve the design.
+
+Q: What is embroidery digitizing?
+A: Digitizing converts your logo into a stitch file the embroidery machine can read — telling it where to put each stitch, what thread color, and what density. It's a one-time $45 fee per design and we keep the file on hand for all your future orders.
+
+Q: Why is digitizing a separate cost from the logo design?
+A: Because it's a separate craft. A digitizer translates artwork into thousands of individual stitch instructions for the machine. Done well, it determines whether your logo looks crisp or fuzzy on a finished polo, hat, or jacket.
+
+## Graphic Design Services Onalaska TX | L.I.T.
+URL: https://lakesidethreadz.com/services/graphic-design/
+
+Q: What types of graphic design do you offer?
+A: We design business cards, flyers, postcards, social media graphics, signage, menus, banners, and general marketing materials. If it's a visual for your business, we can probably help.
+
+Q: Can you match my existing branding?
+A: Absolutely. Send us your logo, brand colors, and any existing materials, and we'll design new pieces that fit your established look.
+
+Q: Do you provide print-ready files?
+A: Yes. We deliver files in the correct format for your printer — typically high-resolution PDF with proper bleed and crop marks.
+
+Q: Can you help with social media graphics?
+A: Yes — we create individual posts, story templates, and cover images optimized for Facebook, Instagram, and other platforms.
+
+Q: How long do design projects take?
+A: Simple projects like business cards take 3-5 business days. More complex materials may take 1-2 weeks. Rush service available for tight deadlines.
+
+Q: Do you also offer printing?
+A: We focus on design, but we can recommend local printers or coordinate printing for you. We'll make sure your files are print-ready for whoever produces them.
+
+Q: What graphic design services do you offer?
+A: Custom flyers, business cards, social media graphics, event posters, menu boards, vehicle wraps, and merchandise mockups. Anything we can print or embroider, we can design first.
+
+Q: Can you design something even if you don't print it?
+A: Yes — we'll happily design files for you to use anywhere (print shop, business cards, social media, signage). You own the finished artwork and we'll send you the source files.
+
+## Custom Fishing Shirts & Hunting Apparel | Lake Livingston
+URL: https://lakesidethreadz.com/services/hunting-fishing-apparel/
+
+Q: Do you make tournament fishing shirts?
+A: Absolutely — it's one of our specialties. We create custom tournament shirts with team logos, sponsor placements, and event branding for Lake Livingston and East Texas tournaments.
+
+Q: What fabrics work best for fishing shirts?
+A: We recommend moisture-wicking performance fabrics that dry quickly and resist UV fading. They keep you comfortable on the water and hold up to repeated washing.
+
+Q: Can you add sponsor logos to tournament shirts?
+A: Yes — we can place multiple sponsor logos on sleeves, chest, and back. Provide us the sponsor artwork and we'll handle the digitizing.
+
+Q: Do you embroider on camo?
+A: Yes. We work with various camo patterns for hunting clubs and outdoor groups. Thread color selection is important to ensure visibility against the pattern.
+
+Q: Can you outfit a fishing guide service?
+A: Yes — we create professional guide shirts, hats, and gear that look great in client photos and build your brand on the water.
+
+Q: How fast can you turn around tournament orders?
+A: Standard turnaround is 7-10 business days. For tournaments with tight deadlines, contact us immediately — we can often accommodate rush orders.
+
+Q: Can you embroider on Columbia PFG, Huk, and AFTCO fishing shirts?
+A: Yes — PFG (Performance Fishing Gear), Huk Performance, and AFTCO shirts embroider beautifully and are popular for guide services, marinas, and lake businesses around Lake Livingston. We use threads that hold color under sun and saltwater.
+
+Q: Can you do tournament team logos with sponsor patches?
+A: Yes — bass and crappie tournament teams routinely order matching shirts, hats, jackets, and bags from us. We can embroider your team logo and add sponsor patches in the standard tournament layout.
+
+## Services | Custom Embroidery & DTF | L.I.T. Onalaska TX
+URL: https://lakesidethreadz.com/services/
+
+Q: How long does embroidery take?
+A: Most orders ship or are ready for pickup in 5–10 business days. Rush available — ask us.
+
+Q: What file do I need to send?
+A: We accept JPG, JPEG, and SVG files. Higher resolution files produce sharper embroidery results — 300 DPI or higher is recommended for JPG and JPEG files. SVG vector files provide the cleanest results at any size. Not sure what you have? Send it anyway — we will let you know if it needs adjustment.
+
+Q: What's the difference between DTF and screen printing?
+A: Screen printing is great for large runs of simple designs. DTF is better for detailed art, photos, and small quantities — no setup fees, no minimums.
+
+Q: Is DTF durable?
+A: Yes — wash inside-out in cold water and your print will stay vibrant for years.
+
+Q: Do you offer bulk pricing?
+A: Yes — volume discounts start at 12 pieces and increase at 24, 48, and 100+. Contact us for a custom quote.
+
+Q: Can you handle our whole team?
+A: Absolutely — we handle orders from 5 pieces to 200+. Same quality, faster turnaround on repeats.
+
+Q: Do I own the logo?
+A: Yes — full ownership of all files transfers to you on delivery. No ongoing fees.
+
+Q: Can I use the logo for embroidery and digital?
+A: That's exactly how we design them. Every logo we create works across both embroidery and digital/print use.
+
+## Lake Livingston Custom Fishing Shirts | Tournament & Guide Gear
+URL: https://lakesidethreadz.com/services/lake-livingston-fishing-shirts/
+
+Q: What kind of fishing shirts do you make?
+A: Performance long-sleeve UPF shirts (the classic PFG-style shirts), embroidered polos for guide services, printed tournament tees, and hoodies for cold-weather trips. Any brand you like — we’ll match it.
+
+Q: Can you do tournament shirts for a Lake Livingston event?
+A: Yes — that’s a big chunk of what we do. Send us your tournament artwork, sponsor logos, and quantity, and we’ll quote a printed or embroidered run with turnaround that fits your tournament date.
+
+Q: How long do custom fishing shirts take?
+A: Standard turnaround is 7-14 business days from approval, depending on garment and quantity. If you have a tournament date, tell us up front — we’ll work backward from it and use rush production if we have to.
+
+Q: Do you embroider or print sponsor logos on tournament shirts?
+A: Both. Multi-sponsor tournament shirts usually make more sense printed (screen print or DTF) because of the color count. Single-logo guide-service shirts look sharper embroidered.
+
+Q: Can I order just a few fishing shirts for a family lake trip?
+A: Yes. Small orders are welcome — a family reunion set of matching lake shirts is a totally normal order for us. No minimum.
+
+Q: What kind of fishing shirts do you make?
+A: Performance long-sleeve UPF shirts (the classic PFG-style shirts), embroidered polos for guide services, printed tournament tees, and hoodies for cold-weather trips. Any brand you like — we’ll match it.
+
+Q: Can you do tournament shirts for a Lake Livingston event?
+A: Yes — that’s a big chunk of what we do. Send us your tournament artwork, sponsor logos, and quantity, and we’ll quote a printed or embroidered run with turnaround that fits your tournament date.
+
+Q: How long do custom fishing shirts take?
+A: Standard turnaround is 7-14 business days from approval, depending on garment and quantity. If you have a tournament date, tell us up front — we’ll work backward from it and use rush production if we have to.
+
+Q: Do you embroider or print sponsor logos on tournament shirts?
+A: Both. Multi-sponsor tournament shirts usually make more sense printed (screen print or DTF) because of the color count. Single-logo guide-service shirts look sharper embroidered.
+
+Q: Can I order just a few fishing shirts for a family lake trip?
+A: Yes. Small orders are welcome — a family reunion set of matching lake shirts is a totally normal order for us. No minimum.
+
+## Logo Design Services Onalaska TX | Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/services/logo-design/
+
+Q: How long does logo design take?
+A: Initial concepts typically take 5-7 business days. After you select a direction, revisions and finalization take another 3-5 days. Plan for 2-3 weeks total for a polished result.
+
+Q: What files will I receive?
+A: You'll get vector files (AI, EPS, SVG), high-resolution images (PNG, JPG), and embroidery-ready formats. Everything you need for print, web, and stitched applications.
+
+Q: Can you design a logo that works for embroidery?
+A: That's our specialty. We design with embroidery in mind from the start — proper detail levels, clean lines, and colors that translate well to thread.
+
+Q: What if I already have a logo but need it cleaned up?
+A: We can recreate or refine existing logos. Sometimes old logos need vector conversion, simplification for embroidery, or just a professional polish.
+
+Q: Do you design logos for new businesses?
+A: Yes — we work with many new businesses getting started in the Lake Livingston area. A professional logo is often their first branding step.
+
+Q: Can you include my logo design with embroidery orders?
+A: If you're ordering embroidered apparel, we can sometimes bundle logo design at a reduced rate. Contact us to discuss your complete branding needs.
+
+Q: What's included in the logo design package?
+A: A complete logo set: primary logo, simplified version for small applications, color and black-and-white variants, and the source files in vector format so you own the artwork forever. Total: $149.
+
+Q: Will the logo work for embroidery?
+A: Yes — every logo we design is built with embroidery in mind first, then adapted for digital use. That means clean lines, embroidery-friendly stitch density, and color choices that work in thread as well as on a screen.
+
+## Monogramming Services Onalaska TX | Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/services/monogramming/
+
+Q: What items can you monogram?
+A: Most fabric items work for monogramming — towels, robes, bags, blankets, shirts, hats, and more. If the material can hold embroidery, we can add a monogram.
+
+Q: What monogram styles do you offer?
+A: We offer traditional three-letter monograms (with large center initial), block letters, script fonts, circle monograms, and stacked designs. We can show you samples.
+
+Q: Can I bring items I already own?
+A: Absolutely. Bring us your towels, bags, or other items and we'll add the monogram. Just make sure they're clean and in good condition.
+
+Q: Do you do baby gift monogramming?
+A: Yes — personalized baby blankets, bibs, and clothing make wonderful gifts. We can add names, birth dates, or simple designs.
+
+Q: How long does monogramming take?
+A: Most monogramming orders are ready in 5-7 business days. Rush service available for gifts with a deadline.
+
+Q: Can you monogram items for weddings?
+A: Yes — we create monogrammed gifts for bridal parties, groomsmen, and couples. Popular items include robes, bags, towels, and handkerchiefs.
+
+Q: How much does monogramming cost?
+A: Single-initial monograms start around $10 per piece for embroidery on towels, robes, jackets, and bags. Three-letter monograms with a frame design typically run $12–$15 depending on stitch count.
+
+Q: What items work well for monogramming?
+A: Bath towels, beach towels, robes, baby blankets, jackets, vests, totes, and pillowcases all monogram beautifully. Bridesmaid robes, baby shower gifts, and groomsmen totes are our most popular custom monogram orders.
+
+## Spirit Wear | Custom School & Booster Club Apparel
+URL: https://lakesidethreadz.com/services/spirit-wear/
+
+Q: How long does a spirit wear order take?
+A: Standard turnaround is 10-14 business days from artwork approval on screen-printed apparel, 7-10 on embroidered. Rush available. Homecoming and back-to-school windows fill fast — get your order in early.
+
+Q: Can you run a spirit wear online store for our booster club?
+A: Yes — we set up short online stores (usually open 10-14 days) where families order directly, then we produce everything in one run. Ask us about setup.
+
+Q: Do you offer both printing and embroidery on spirit wear?
+A: Both. Full-color designs typically run better as screen prints or DTF on tees and hoodies. Chest logos on polos, jackets, and staff apparel look sharper embroidered.
+
+Q: What’s the minimum for a spirit wear run?
+A: For screen-printed apparel, 24 pieces per design is our practical minimum. Embroidered spirit wear has no minimum — single-piece orders are fine.
+
+Q: Can you match our school’s colors and mascot?
+A: Yes. Send us your logo, mascot art, and color codes (or a photo of an existing shirt) and we’ll match it.
+
+Q: How long does a spirit wear order take?
+A: Standard turnaround is 10-14 business days from artwork approval on screen-printed apparel, 7-10 on embroidered. Rush available. Homecoming and back-to-school windows fill fast — get your order in early.
+
+Q: Can you run a spirit wear online store for our booster club?
+A: Yes — we set up short online stores (usually open 10-14 days) where families order directly, then we produce everything in one run. Ask us about setup.
+
+Q: Do you offer both printing and embroidery on spirit wear?
+A: Both. Full-color designs typically run better as screen prints or DTF on tees and hoodies. Chest logos on polos, jackets, and staff apparel look sharper embroidered.
+
+Q: What’s the minimum for a spirit wear run?
+A: For screen-printed apparel, 24 pieces per design is our practical minimum. Embroidered spirit wear has no minimum — single-piece orders are fine.
+
+Q: Can you match our school’s colors and mascot?
+A: Yes. Send us your logo, mascot art, and color codes (or a photo of an existing shirt) and we’ll match it.
+
+## Team Uniforms & Spirit Wear | Custom Jerseys, Polos, Fan Tees
+URL: https://lakesidethreadz.com/services/team-uniforms/
+
+Q: How long does a team uniform order take?
+A: Plan for 10-14 business days from approval for full team orders. If your season starts soon, contact us immediately — we can often accommodate rush orders for an additional fee.
+
+Q: Can you add individual player names to each uniform?
+A: Absolutely. We embroider individual names and numbers on each piece. Just provide us your roster with sizes, names, and numbers.
+
+Q: Do you offer matching coach and parent gear?
+A: Yes — we can create coach polos, parent t-shirts, and fan gear that coordinates with the team uniforms. Great for building team spirit.
+
+Q: What sports do you make uniforms for?
+A: All of them. Baseball, softball, basketball, soccer, volleyball, golf, fishing teams, bowling — if your team needs matching gear, we can make it.
+
+Q: Can we reorder for new players mid-season?
+A: Yes. We keep your digitized designs on file, so adding uniforms for new players is quick and easy. Typically faster than the original order.
+
+Q: Do you work with school teams?
+A: We work with school athletic programs, booster clubs, and UIL teams across the region. We're familiar with Onalaska ISD, Livingston ISD, and other local schools.
+
+Q: Can you embroider matching uniforms for the whole team?
+A: Yes — we handle teams of any size, from youth leagues to adult rec sports to varsity programs. We'll embroider your team logo on every jersey, hat, or warmup. Player names and numbers add $3 per piece.
+
+Q: How early should we order team uniforms before the season?
+A: Order 3–4 weeks before your first game or tournament. Most orders ship in 5–10 business days, but tournaments and league deadlines stack up in spring and fall — rush orders are available at +25% for tight timelines.
+
+## Wedding Embroidery Onalaska TX | Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/services/wedding-embroidery/
+
+Q: How far in advance should I order wedding embroidery?
+A: We recommend 3-4 weeks before your wedding for standard orders. Rush orders are possible but may incur additional fees. Don't wait until the last minute.
+
+Q: Can you create matching items for my entire bridal party?
+A: Absolutely. We can create coordinated sets for bridesmaids, groomsmen, flower girls, ring bearers — everyone in your wedding party.
+
+Q: Do you offer bridal robes?
+A: Yes — we work with quality robes that look beautiful in photos. We can add names, roles (Bride, Maid of Honor), or monograms.
+
+Q: What do you offer for groomsmen?
+A: Popular groomsmen gifts include embroidered shirts, caps, duffel bags, and travel pouches. We can add names or initials to each item.
+
+Q: Can you embroider the wedding date?
+A: Yes — we can add wedding dates to items for couples or as an additional detail on bridal party gifts.
+
+Q: Do you ship wedding orders?
+A: We can ship within Texas, but for local Lake Livingston area weddings, pickup or local delivery is usually easiest.
+
+Q: How far in advance should I order wedding embroidery?
+A: Order at least 4–6 weeks before the wedding to allow for design, approval, and any reorders. Most pieces ship in 5–10 business days. Rush is available at +25% if you're closer to the date.
+
+Q: What can you embroider for a wedding?
+A: Robes for the bridal party, monogrammed totes for guests, 'Mr. & Mrs.' pillowcases, ring-bearer pillows, mother-of-the-bride jackets, groomsmen polos, custom Koozies for the welcome bag, and matching family-of-the-bride shirts.
+
+## Work Shirts & Employee Uniforms | Custom Embroidered
+URL: https://lakesidethreadz.com/services/work-shirts-uniforms/
+
+Q: Can you embroider hi-vis safety shirts?
+A: Yes — we work with ANSI-rated hi-vis shirts and vests. The embroidery doesn't affect the safety rating. Perfect for construction, roadwork, and industrial crews.
+
+Q: What if my employees are different sizes?
+A: No problem. Give us a size breakdown with your order and we'll embroider each shirt individually. We can also add individual names to each one.
+
+Q: How durable is embroidery on work shirts?
+A: More durable than screen printing or heat transfers. Embroidery is stitched thread — it doesn't peel, crack, or fade. It holds up to industrial washing and daily wear.
+
+Q: Do you offer flame-resistant (FR) work shirts?
+A: We can embroider FR shirts you supply. If you need sourcing help, let us know and we'll point you to suppliers who carry FR-rated blanks.
+
+Q: Can you put a logo on the back of work shirts?
+A: Absolutely. Back embroidery works great for larger logos. We can also do sleeve embroidery, right chest text, or collar embroidery.
+
+Q: How do I reorder when I hire new employees?
+A: We keep your digitized logo on file. Just tell us the sizes and names for new shirts and we'll run them — usually faster than the original order.
+
+Q: Do you offer ANSI safety-rated work shirts?
+A: Yes — we can embroider on high-visibility ANSI Class 2 and Class 3 shirts from brands like Berne and Bulwark, plus standard work shirts from Carhartt, Dickies, and Red Kap. Tell us your industry (HVAC, plumbing, oil and gas, construction, marine) and we'll recommend the right blank.
+
+Q: Can you add employee names to work shirts?
+A: Yes — individual names add $3 per piece on top of the base embroidery cost. We can do first name, last name, full name, or job title. Send us a list once we confirm the design.
+
+## L.I.T. Viral Logo Visualizer | Free AI Brand Shoot Generator
+URL: https://lakesidethreadz.com/visualizer/
+
+Q: Is the L.I.T. Logo Visualizer free?
+A: Yes! The Logo Visualizer is completely free to use. Upload your logo, pick a style, and download your AI-generated brand shoot at no cost.
+
+Q: What file types can I upload?
+A: We accept JPG, JPEG, PNG, SVG, and WebP files. JPG and JPEG are the most common formats and work great. For best results, upload a high-resolution image — transparent backgrounds help but aren't required.
+
+Q: How does the AI generate images?
+A: Our tool uses Google's Gemini AI to intelligently place your logo on realistic merchandise like hats, t-shirts, patches, and koozies in creative scenes.
+
+Q: Can I use the generated images commercially?
+A: The generated images are for visualization purposes. To get the actual branded merchandise, click 'Order It' to start a quote with Lakeside Ink & Threadz.
+
+# =====================================================================
+# Services (by page)
+# =====================================================================
+
+## Custom Apparel for Businesses & Teams | Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/business-orders/
+
+## Services offered
+
+- Custom Apparel for Businesses, Teams & Organizations: Lakeside Ink & Threadz builds custom apparel and small uniform programs for local Onalaska-area businesses, medical offices, sports teams, churches, and community groups. Free digital proofs before any production, no minimums, and 5-10 business day turnaround.
+
+## Ministry Apparel | Custom Church, VBS & Youth-Group Shirts
+URL: https://lakesidethreadz.com/services/church-ministry-apparel/
+
+## Services offered
+
+- Church & Ministry Apparel in Onalaska, TX: VBS season is coming up. The youth group needs mission trip shirts. Your worship team wants matching polos. At Lakeside Ink & Threadz, we've been stitching apparel for Lake Livingston area churches for years — everything from women's retreat bags to children's ministry t-shirts. Embroidery adds a level of quality that congregations notice. It looks professional, holds up through years of wear, and doesn't fade or peel like printed shirts often do. We work with churches of all sizes from Onalaska to Huntsville, and we understand that ministry budgets matter.
+
+## Coaches Polos | Custom Embroidered Coach Apparel
+URL: https://lakesidethreadz.com/services/coaches-polos/
+
+## Services offered
+
+- Coaches Polos: Custom embroidered coaches polos for schools, athletic programs, and booster clubs. Sideline polos, staff shirts, and matching AD/trainer apparel with your school mark stitched cleanly and built to hold up through the season.
+
+## Corporate Polos & Corporate Embroidery | Executive-Quality Logo Apparel
+URL: https://lakesidethreadz.com/services/corporate-embroidery/
+
+## Services offered
+
+- Corporate Embroidery in Onalaska, TX: Your brand deserves better than cheap screen printing that cracks after a few washes. At Lakeside Ink & Threadz, we provide corporate embroidery that matches the professionalism of your business. Whether you're outfitting a sales team, creating executive gifts for clients, or building a company uniform program, embroidered apparel communicates quality. We work with businesses across the Lake Livingston area — from small local companies to regional operations with multiple locations. Our attention to detail, consistent quality, and reliable turnaround have made us a trusted partner for corporate apparel needs in East Texas.
+
+## Corporate Polos | Executive-Quality Custom Embroidered Polos
+URL: https://lakesidethreadz.com/services/corporate-polos/
+
+## Services offered
+
+- Corporate Polos: Executive-quality corporate polos embroidered with your company logo. Premium branded blanks, clean digitized embroidery, and consistent color matching across staff apparel, leadership gifts, and ongoing company store programs.
+
+## Embroidered Bags & Totes Onalaska TX | L.I.T.
+URL: https://lakesidethreadz.com/services/embroidered-bags-totes/
+
+## Services offered
+
+- Embroidered Bags & Totes in Onalaska, TX: Embroidered bags make practical gifts that get used — and seen — every day. At Lakeside Ink & Threadz, we stitch custom totes, duffels, backpacks, cooler bags, and accessories for businesses, events, and personal gifts. A branded tote bag travels with your customer to the grocery store, the gym, the office. That's ongoing brand exposure you can't get from a business card. We serve clients across the Lake Livingston area looking for quality embroidered bags — whether it's 12 gift bags for a sales meeting or 200 totes for a charity event.
+
+## Embroidered Hats & Custom Trucker Hats | Snapbacks & Caps
+URL: https://lakesidethreadz.com/services/embroidered-hats-caps/
+
+## Services offered
+
+- Embroidered Hats & Caps in Onalaska, TX: There's something about a good hat. It goes everywhere — the job site, the boat, the tailgate, the grocery store. That makes custom embroidered hats some of the best brand exposure you can buy. At Lakeside Ink & Threadz in Onalaska, we stitch hats for businesses, fishing tournaments, family reunions, and anyone who wants their logo on a quality cap. Our embroidery is tight, clean, and built to last through years of sun, sweat, and washing. We've made hats for clients across the Lake Livingston area — from Coldspring tackle shops to Huntsville contractors.
+
+## Embroidered Polos | Custom Logo Polos Stitched in Texas
+URL: https://lakesidethreadz.com/services/embroidered-polos/
+
+## Services offered
+
+- Embroidered Polos in Onalaska, TX: A sharp polo with your logo says something about your business before you even shake hands. At Lakeside Ink & Threadz, we stitch custom embroidered polos for contractors, real estate offices, restaurants, and local shops across Onalaska, Livingston, and the Lake Livingston area. Our embroidery holds up to daily wear, weekly washing, and Texas heat — no peeling, no fading, just clean professional branding that lasts years. Need 12 polos for your crew? We've got you. Just want one for yourself? We do that too.
+
+## Embroidery Digitizing Onalaska TX | Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/services/embroidery-digitizing/
+
+## Services offered
+
+- Embroidery Digitizing in Onalaska, TX: Before any logo can be embroidered, it needs to be digitized — converted from an image into stitch instructions that embroidery machines understand. Bad digitizing creates bad embroidery: thread bunching, registration issues, and logos that don't look like your original. At Lakeside Ink & Threadz, we provide professional digitizing that captures your logo accurately and stitches cleanly on the intended fabrics. Whether you're having us embroider your items or need a stitch file for another provider, we deliver digitizing that works right the first time.
+
+## Graphic Design Services Onalaska TX | L.I.T.
+URL: https://lakesidethreadz.com/services/graphic-design/
+
+## Services offered
+
+- Graphic Design in Onalaska, TX: You've got your logo on shirts. Now you need it on flyers, social media, business cards, and the sign out front. At Lakeside Ink & Threadz, we provide graphic design services for businesses across the Lake Livingston area who want professional visuals without the big-city agency price tag. We understand local business needs — you want designs that work, delivered on time, at prices that make sense. One-time project or ongoing support, we're here to help your business look polished.
+
+## Custom Fishing Shirts & Hunting Apparel | Lake Livingston
+URL: https://lakesidethreadz.com/services/hunting-fishing-apparel/
+
+## Services offered
+
+- Hunting & Fishing Apparel in Onalaska, TX: Lake Livingston is fishing country, and East Texas is hunting country. At Lakeside Ink & Threadz, we create custom embroidered apparel for the outdoor community — fishing tournament teams, hunting clubs, guide services, and outdoor enthusiasts who want quality branded gear. We understand what works on the water and in the blind: moisture-wicking fabrics that dry fast, colors that look good in photos, and embroidery that holds up to sun, spray, and washing. Whether you need tournament shirts for your team or branded hats for your guide service, we're your local source in Onalaska.
+
+## Lake Livingston Custom Fishing Shirts | Tournament & Guide Gear
+URL: https://lakesidethreadz.com/services/lake-livingston-fishing-shirts/
+
+## Services offered
+
+- Lake Livingston Custom Fishing Shirts: Custom fishing shirts for Lake Livingston tournaments, guide services, and fishing clubs. Performance long-sleeves, embroidered polos, and printed tournament tees produced in-house at our shop off Twin Creeks Dr in Livingston, TX — five minutes from the lake.
+
+## Logo Design Services Onalaska TX | Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/services/logo-design/
+
+## Services offered
+
+- Logo Design in Onalaska, TX: Starting a business? Rebranding? Need a logo that actually works on embroidered shirts and printed materials? At Lakeside Ink & Threadz, we design original logos for businesses across the Lake Livingston area. Unlike designers who've never worked with embroidery, we understand what makes a logo stitch well — clean lines, appropriate detail levels, and colors that translate to thread. The result is a logo you can use everywhere: embroidered polos, printed signs, business cards, vehicle wraps, and websites. We work with new businesses, established companies needing a refresh, and anyone who wants a professional logo designed locally.
+
+## Monogramming Services Onalaska TX | Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/services/monogramming/
+
+## Services offered
+
+- Monogramming in Onalaska, TX: There's something special about seeing your initials stitched into a bag, or your baby's name on a soft blanket. At Lakeside Ink & Threadz in Onalaska, we provide monogramming services for gifts, home items, and personal accessories — initials on a leather bag, a name on a baby blanket, a couple's monogram on bath towels. These details turn ordinary items into keepsakes. We serve customers across the Lake Livingston area looking for quality personalized embroidery.
+
+## Spirit Wear | Custom School & Booster Club Apparel
+URL: https://lakesidethreadz.com/services/spirit-wear/
+
+## Services offered
+
+- Spirit Wear: Custom spirit wear for schools, booster clubs, PTOs, and homecoming events. Screen-printed and embroidered tees, hoodies, long-sleeves, and fan apparel in your school colors — one shop, one proof, one delivery.
+
+## Team Uniforms & Spirit Wear | Custom Jerseys, Polos, Fan Tees
+URL: https://lakesidethreadz.com/services/team-uniforms/
+
+## Services offered
+
+- Team Uniforms in Onalaska, TX: Game day looks better when the whole team matches. At Lakeside Ink & Threadz, we create custom embroidered team uniforms for youth sports, adult leagues, school athletics, and company teams across the Lake Livingston area. Embroidery adds a premium touch that screen printing can't match — crisp logos, individual names, and player numbers that won't peel or fade through a season of games and washes. We've outfitted teams from Onalaska ISD to recreational softball leagues, and we know deadlines matter when the season's about to start.
+
+## Wedding Embroidery Onalaska TX | Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/services/wedding-embroidery/
+
+## Services offered
+
+- Wedding Embroidery in Onalaska, TX: Your wedding deserves personal touches that your bridal party will keep forever. At Lakeside Ink & Threadz, we create custom embroidered gifts for brides, bridesmaids, groomsmen, and the entire wedding party. From monogrammed robes for getting-ready photos to personalized duffel bags for the groomsmen, embroidered gifts add a thoughtful element to your special day. We work with couples across the Lake Livingston area — Onalaska, Livingston, and beyond — to create wedding keepsakes that go beyond the typical store-bought gift.
+
+## Work Shirts & Employee Uniforms | Custom Embroidered
+URL: https://lakesidethreadz.com/services/work-shirts-uniforms/
+
+## Services offered
+
+- Work Shirts & Uniforms in Onalaska, TX: Your crew represents your company every time they show up to a job. At Lakeside Ink & Threadz, we outfit contractors, mechanics, electricians, and trade professionals across Onalaska and Livingston with embroidered work shirts built for real work. Our stitching doesn't crack, peel, or fade — because embroidery is thread, not ink. From hi-vis safety shirts to classic button-downs, we customize workwear that survives the job site and still looks sharp meeting customers. We work with crews from one-man operations to companies with 50+ employees throughout the Lake Livingston area.
