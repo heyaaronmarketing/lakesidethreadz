@@ -286,6 +286,9 @@ export async function handleCaseStudyJson(env) {
     },
     dfs_rankings: dfs,
     traffic_signals: traffic,
+    // Diagnostic: last-run timestamps + any errors from each pull. Helps
+    // debug "why didn't my DFS/Bing show data?" without hitting the DB.
+    _meta: meta,
     site_structure: {
       pages: 58,
       schema_nodes: null,
