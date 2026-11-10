@@ -31,9 +31,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Nunito:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebPage","name":"Get a Quote","url":"https://lakesidethreadz.com/quote/","description":"Real custom-apparel quotes from Lakeside Ink & Threadz. Kristen writes every reply by hand within one business day.","isPartOf":{"@type":"WebSite","name":"Lakeside Ink & Threadz","url":"https://lakesidethreadz.com/"},"about":{"@type":"LocalBusiness","name":"Lakeside Ink & Threadz","telephone":"+1-346-988-5449","email":"hello@lakesidethreadz.com","url":"https://lakesidethreadz.com/","address":{"@type":"PostalAddress","streetAddress":"Twin Creeks Dr","addressLocality":"Livingston","addressRegion":"TX","postalCode":"77351","addressCountry":"US"},"areaServed":"Lake Livingston + East Texas"}}
-  </script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Get a Quote","url":"https://lakesidethreadz.com/quote/","description":"Real custom-apparel quotes from Lakeside Ink & Threadz. Kristen writes every reply by hand within one business day.","isPartOf":{"@type":"WebSite","name":"Lakeside Ink & Threadz","url":"https://lakesidethreadz.com/"},"about":{"@type":"LocalBusiness","name":"Lakeside Ink & Threadz","telephone":"+1-346-988-5449","email":"hello@lakesidethreadz.com","url":"https://lakesidethreadz.com/","address":{"@type":"PostalAddress","addressLocality":"Livingston","addressRegion":"TX","postalCode":"77351","addressCountry":"US"},"areaServed":[{"@type":"AdministrativeArea","name":"Polk County, TX"},{"@type":"AdministrativeArea","name":"San Jacinto County, TX"},{"@type":"AdministrativeArea","name":"Walker County, TX"},{"@type":"AdministrativeArea","name":"Trinity County, TX"},{"@type":"AdministrativeArea","name":"Montgomery County, TX"},{"@type":"AdministrativeArea","name":"Liberty County, TX"},{"@type":"City","name":"Livingston, TX"},{"@type":"City","name":"Onalaska, TX"},{"@type":"City","name":"Coldspring, TX"},{"@type":"City","name":"Shepherd, TX"},{"@type":"City","name":"Trinity, TX"},{"@type":"City","name":"New Waverly, TX"},{"@type":"City","name":"Huntsville, TX"},{"@type":"City","name":"Cleveland, TX"},{"@type":"City","name":"Willis, TX"},{"@type":"City","name":"Splendora, TX"},{"@type":"State","name":"Texas"}]}}</script>
 <style>
     :root {
       --lit-blue:#001E78; --lit-blue-2:#0033AA;
@@ -843,11 +841,11 @@ ${notes || '(none)'}`;
         status.textContent = 'Thanks! Kristen will reply within one business day. Watch for an email from hello@lakesidethreadz.com.';
       } else {
         status.className = 'status err';
-        status.textContent = (j.error || 'Something went wrong.') + ' Please call or text (346) 988-5449.';
+        status.textContent = (j.error || 'Something went wrong.') + ' Please call or text 346-988-5449.';
       }
     } catch (err) {
       status.className = 'status err';
-      status.textContent = 'Network error. Please call or text (346) 988-5449.';
+      status.textContent = 'Network error. Please call or text 346-988-5449.';
     } finally {
       submitBtn.disabled = false; submitBtn.textContent = 'Send my quote request';
     }
