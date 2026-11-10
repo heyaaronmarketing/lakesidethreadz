@@ -64,6 +64,60 @@ A: Yes. First-time logo: expect $25-50 digitizing fee + the per-piece embroidery
 Q: Do you ship single shirts?
 A: Yes — USPS Priority Mail typically $8-12 within Texas, 2-3 days. UPS Ground for larger orders. Free pickup at our Twin Creeks Drive location in Livingston.
 
+## DTF vs Screen Printing vs Embroidery: Which to Choose (2026)
+URL: https://lakesidethreadz.com/blog/dtf-vs-screen-printing-vs-embroidery/
+
+Q: Which is cheapest at 24 pieces?
+A: For simple 1-color designs: screen printing usually wins at 24 pieces of simple cotton tees. For full-color or non-cotton: DTF beats screen printing because screen has per-color setup fees that don't amortize well at 24. For logos on polos/hats: embroidery almost always wins regardless of quantity.
+
+Q: Which lasts the longest in the wash?
+A: Embroidery (it's thread, lasts the life of the garment). Second: properly cured screen printing (50+ washes easily). Third: DTF (40-60 washes with proper care). All three are 'commercial-grade' durable.
+
+Q: Can I do embroidery on a hoodie?
+A: Yes — Bella+Canvas 3719 sponge fleece and heavier hoodies embroider beautifully. Avoid dense full-chest embroidery on light-weight hoodies (they'll pucker). Left-chest 3-4 inch logos are the sweet spot.
+
+Q: Is screen printing dead since DTF came along?
+A: No — screen printing is still cheaper per piece at 50+ pieces of simple designs, and water-based screen prints feel softer than DTF. Shops increasingly offer both and pick the right one per job.
+
+Q: What's the best method for a photo on a t-shirt?
+A: DTF (or DTG if the shop has it and you prioritize softness). Neither screen printing nor embroidery can reproduce photographic detail. DTF handles full-color photos cleanly in one pass.
+
+## DTG vs DTF Printing: Which to Pick for Custom Shirts
+URL: https://lakesidethreadz.com/blog/dtg-vs-dtf-printing/
+
+Q: Is DTG or DTF cheaper?
+A: Close at single-piece quantities. DTF gets cheaper per piece faster as quantity grows because the transfer production step is more efficient than per-shirt inkjet time.
+
+Q: Does DTG wash out faster than DTF?
+A: Slightly, in our testing — DTG shows noticeable fade at 30-40 washes, DTF holds strong to 50-60. Both are acceptable for commercial use with proper care (cold wash, inside out, air dry when possible).
+
+Q: Can DTG print on polyester?
+A: Technically yes, but the color saturation and durability are worse than DTF or sublimation on polyester. If your shirt is a performance poly blend or 100% polyester, pick DTF or sublimation.
+
+Q: Is DTG the same as screen printing?
+A: No. Screen printing uses physical screens and plastisol or water-based ink; one screen per color. DTG uses a digital inkjet sprayer; no screens, no per-color setup. DTG is the inkjet of garment printing.
+
+Q: Can I feel the DTF print through the shirt?
+A: Yes, slightly — run your finger over it and you'll feel a rubbery texture. It's much less than iron-on vinyl or old-school screen printing plastisol. Most customers don't notice unless they're specifically looking for it.
+
+## Embroidery Stitch Count Estimator: Formula + Examples
+URL: https://lakesidethreadz.com/blog/embroidery-stitch-count-estimator/
+
+Q: Is higher stitch count always worse?
+A: Not necessarily — higher stitch count means more detail and a more premium look. It just costs more per piece. For a founder/executive polo program where piece-by-piece appearance matters, pay for the detail. For a 500-piece event shirt run where cost matters, simplify the design.
+
+Q: Can you reduce stitch count on a logo I already have?
+A: Yes. We can re-digitize with a tighter fill pattern, remove 3D puff effects, simplify borders, or convert solid fills to outlines. Expect 20-40% stitch reduction with minimal visual impact if your logo has solid-fill areas.
+
+Q: Why does my logo have different stitch counts at different shops?
+A: Because every digitizer makes different choices about underlay, fill density, pull compensation, and stitch direction. A good digitizer optimizes for both appearance and efficiency; a lazy one maxes out density to be safe, inflating stitch count. Ask to see the stitch count before production.
+
+Q: Does stitch count affect how durable the embroidery is?
+A: Up to a point, yes. Too few stitches = thin, see-through embroidery that frays. Too many stitches on light fabric = puckering and thread breakage. A well-digitized logo hits the sweet spot — dense enough to look solid, not so dense it warps the garment.
+
+Q: Can you quote me based on stitch count alone?
+A: Almost. We need to know the garment type too (polo vs hoodie vs hat), the position (left chest vs full back), and the quantity. With those four variables we can quote within a dollar or two per piece before seeing the final digitized file.
+
 ## Embroidery vs Screen Printing: Which to Pick for Custom Apparel
 URL: https://lakesidethreadz.com/blog/embroidery-vs-screen-printing/
 
@@ -81,6 +135,99 @@ A: Not if it's cured properly. Cracking usually means the print wasn't fully cur
 
 Q: Which one lasts longer?
 A: Both last the life of the garment when done well. Embroidery has a slight edge because thread is a physical fiber bonded to the fabric, whereas screen-print ink is a surface layer. But either one typically outlasts the shirt.
+
+## DTF Gang Sheets Explained: How to Save Money on Custom Prints
+URL: https://lakesidethreadz.com/blog/gang-sheet-dtf-printing/
+
+Q: Can I buy just the gang sheet of transfers without shirts?
+A: Not from Lakeside — we press and ship finished shirts, not loose transfers. Several national vendors (DTFTransfers, UnlimitedDTF, etc.) sell transfer-only gang sheets if you have your own heat press.
+
+Q: How many designs can I fit on a 22x24 gang sheet?
+A: Depends on design size. Small 2-inch left-chest logos: 40-50. Medium 4-inch designs: 15-20. Large 8-10 inch chest designs: 4-6. One 12-inch design: 1.
+
+Q: Does gang-sheet print quality differ from a single-design print?
+A: No — the printing quality is identical. Each design on the sheet is printed at the same resolution and color accuracy as a single-design sheet.
+
+Q: How do I cut designs off a gang sheet?
+A: Kiss-cut with scissors around the outline of each design, leaving 0.125 inches of clear film around the printed area. Don't cut right to the ink edge — you need a bit of film for the adhesive to bond under.
+
+Q: Are gang-sheet transfers as durable as single-design transfers?
+A: Yes — same film, same adhesive, same curing process. Durability is identical.
+
+## Custom Embroidery Cost in 2026: Real Prices by Garment
+URL: https://lakesidethreadz.com/blog/how-much-does-custom-embroidery-cost/
+
+Q: Is there a minimum order amount?
+A: At Lakeside, no. We'll embroider a single polo. Tier pricing starts getting meaningfully better at 12 pieces. For most shops, minimums range from 1-24 pieces.
+
+Q: How is embroidery priced vs screen printing cost-wise?
+A: At small quantities (1-24), embroidery and screen printing are close, with embroidery often cheaper because screen has per-color setup fees. At 50+ pieces of a simple 1-2 color design, screen printing is cheaper per piece. For logos on polos or hats, embroidery wins regardless of quantity.
+
+Q: Why does one shop quote me $15 and another $25 for the same shirt?
+A: Three common reasons: different blank garments (same style, different brand or weight), different stitch counts (one shop's digitizer added more density), or different overhead structures (large shops have higher fixed costs). Ask each shop for a written quote that itemizes blank cost + embroidery cost + digitizing fee separately.
+
+Q: Does Lakeside charge a setup fee?
+A: No setup fee per run. We charge a one-time digitizing fee ($25-50) if you're bringing a new logo. All future reorders of that logo have zero setup cost.
+
+Q: Can I get a real quote same day?
+A: Yes. Text or email us a photo of your logo, garment type, quantity, and ideal delivery date. Kristen usually quotes same-day; always within one business day.
+
+## Polo vs T-Shirt for Work Uniforms: Which to Pick
+URL: https://lakesidethreadz.com/blog/polo-vs-t-shirt-for-work/
+
+Q: Are polos really more professional than t-shirts?
+A: In a customer-facing context, yes — business and consumer surveys consistently rank polos as 'more professional' than t-shirts by 20-30 points. The collar is the visual cue; it reads 'uniform' instead of 'casual.' In contexts where everyone wears a t-shirt (jobsites, warehouses), the professionalism bump disappears.
+
+Q: What's the lifespan difference between a polo and a t-shirt?
+A: A good polo (Core 365, Port Authority) lasts 2-3 years of daily wear before fading or wearing out at the collar. A good t-shirt (Bella+Canvas 3001) lasts 1-2 years. Both significantly longer if worn only occasionally.
+
+Q: Can we embroider our logo on a t-shirt?
+A: Yes — but the look is less tailored than embroidery on a polo. If you're going embroidery, we usually recommend a ringspun heavy cotton tee (Champion T525C) rather than a light jersey (Bella 3001) because the thicker fabric handles the stitch weight without puckering.
+
+Q: Which is better for summer in Texas?
+A: T-shirts breathe better in extreme heat because they have no collar and typically lighter fabric. A moisture-wicking performance polo (Core 365 88181) comes close and keeps the professional look. For outdoor crews in July heat, prioritize breathability over formality.
+
+Q: How many polos or t-shirts should we order per person?
+A: For 5-day-a-week wear: 5-7 pieces per person so laundry doesn't become a daily chore. For occasional wear (events, meetings): 2-3 pieces. Reorder annually before fading becomes visible.
+
+## Spirit Wear Fundraiser Guide: Playbook for Booster Clubs
+URL: https://lakesidethreadz.com/blog/spirit-wear-fundraiser-guide/
+
+Q: How much does a typical booster spirit wear fundraiser raise?
+A: Varies by school size. Small schools (under 500 students, athletic boosters only): $800-2,500 per run. Mid-sized (500-1,500 students): $2,500-6,000. Large (1,500+): $6,000-15,000. Band and Project Grad fundraisers scale similarly.
+
+Q: Do we need to buy inventory in advance?
+A: No — the modern approach is pre-order only. Parents order through a Google Form or similar; you place one bulk order with the vendor after the window closes; the booster has zero inventory risk.
+
+Q: What if parents want sizes we didn't order?
+A: Build the form to let families select from all adult + youth sizes. The vendor orders exactly what pre-sold. Don't try to predict size distribution — let parents do it.
+
+Q: How long from ordering window close to pickup night?
+A: Typically 2-3 weeks for production + packing. Add a week for shipping to the booster president. Schedule the pickup night at least 4 weeks after the ordering window closes.
+
+Q: Can families order individually and have it shipped to them?
+A: Possible but more complex. Most booster clubs batch-ship to the president and do a single pickup night; parents who miss pickup night get theirs at a backup pickup the following week. Individual shipping adds per-piece shipping cost and reduces the booster's margin.
+
+Q: How do we handle the school logo approval?
+A: Most Texas districts require written vendor approval for the licensed mark. An email from your district's communications or athletics office is usually enough. If you're not sure who to ask, we'll help — we've done this with 10+ Texas schools.
+
+## UV DTF Printing: What It Is and When to Use It
+URL: https://lakesidethreadz.com/blog/uv-dtf-printing-explained/
+
+Q: Is UV DTF the same as regular DTF?
+A: No — same name, different technology. Regular DTF is for fabric and uses heat + adhesive powder. UV DTF is for hard surfaces and uses UV-cured ink + a peel-and-stick film. Don't mix them up when ordering.
+
+Q: Will UV DTF survive dishwasher and ice-bath use?
+A: Yes — properly applied UV DTF on a tumbler survives 100+ dishwasher cycles. Top-rack is safer than bottom-rack for the first few washes while the adhesive fully cures (first 24 hours).
+
+Q: Can I apply UV DTF decals myself at home?
+A: Yes, that's actually a huge use case. Many vendors sell loose UV DTF decals and the customer applies them to their own tumblers, phone cases, or laptops. We don't sell loose decals — we press-and-ship complete products.
+
+Q: Does UV DTF work on wood or leather?
+A: Not well — those surfaces are too porous for the adhesive to bond properly. For wood, consider laser engraving or vinyl. For leather, consider embroidery or debossing.
+
+Q: How long does UV DTF last outdoors?
+A: On cars, water bottles, hard hats — 3-5 years of outdoor exposure with proper application. UV exposure can slowly fade bright colors; apply a clear vinyl laminate over the decal for max weather protection on outdoor surfaces.
 
 ## What Is DTF Printing? Direct-to-Film Explained in Plain English
 URL: https://lakesidethreadz.com/blog/what-is-dtf-printing/
