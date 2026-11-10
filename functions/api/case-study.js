@@ -1107,6 +1107,7 @@ function formatDate(iso) {
     year: "numeric", month: "short", day: "numeric",
     hour: "numeric", minute: "2-digit",
   });
+}
 
 async function handleCaseStudyAdminPage(env) {
   if (!env.DB) {
