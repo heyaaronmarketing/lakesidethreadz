@@ -149,6 +149,15 @@ CREATE INDEX IF NOT EXISTS idx_traffic_bot ON traffic_log(bot);
 CREATE INDEX IF NOT EXISTS idx_traffic_ref ON traffic_log(referer_host);
 `;
 
+// HTML-escape helper used by every renderLayout / admin page template.
+function esc(s) {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
 export async function ensureCaseStudySchema(env) {
   if (!env.DB) return false;
   await env.DB.exec(CASE_STUDY_SCHEMA.replace(/\n/g, " ")).catch(() => {});
