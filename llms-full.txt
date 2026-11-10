@@ -25,6 +25,84 @@ Founder: Kristen Coats — Owner
 # Frequently asked questions (by page)
 # =====================================================================
 
+## Best Fabric for Embroidery: Cotton, Polo Piqué, Fleece, Nylon Explained
+URL: https://lakesidethreadz.com/blog/best-fabric-for-embroidery/
+
+Q: Does polyester embroider well?
+A: Medium-weight polyester (performance polos, athletic pullovers) embroiders cleanly with proper backing. Thin polyester (lightweight athletic tees) can pucker — ask us for a sample press before committing to a big run.
+
+Q: Can you embroider on a dress shirt?
+A: Yes, but we usually recommend keeping the design small (left-chest or cuff) and simple on dress shirts. Dense full-back embroidery on a fine oxford fabric can warp the shirt.
+
+Q: Will embroidery make a thin t-shirt look wavy?
+A: Possible with very dense designs on light cotton. For t-shirt embroidery we usually suggest a smaller logo (2.5 inches or less) or switching to a heavier shirt (Champion T525C) to avoid the puckered look.
+
+Q: Can you embroider on terry cloth towels?
+A: Yes — towels embroider beautifully. We use a water-soluble topper to prevent stitches from sinking into the terry loops, and the result looks crisp and lasts the life of the towel.
+
+Q: What about leather or faux leather patches?
+A: Real leather patches (sewn onto hats or jackets) embroider cleanly. Faux leather we do too but the needle holes can be slightly visible. For leather patches on hats, most customers prefer a laser-engraved patch and we can source that.
+
+## Custom Shirts No Minimum Order: How Single-Piece Printing Works
+URL: https://lakesidethreadz.com/blog/custom-shirts-no-minimum-order/
+
+Q: What's the minimum order at Lakeside Ink & Threadz?
+A: No minimum. We'll do one t-shirt, one polo, one hat, one hoodie. Tier pricing starts getting meaningfully better at 12 pieces and keeps improving through 48 and 96.
+
+Q: Is there a setup fee for a single shirt?
+A: For DTF printing (full-color prints): no setup fee. For embroidery: there's a one-time $25-50 digitizing fee if we're converting your logo to embroidery for the first time. After the first embroidery order, reorders have zero setup.
+
+Q: How long does one custom shirt take to make?
+A: Typically 5-7 business days from quote approval. Rush orders (2-3 days) are available for an extra 25%. Walk-in same-day isn't something we do routinely but is occasionally possible if we're not slammed.
+
+Q: Is one custom shirt really cheaper with DTF than screen printing?
+A: Yes — because DTF has no per-color setup fee. For a single full-color shirt, DTF is almost always the cheapest method. Screen printing becomes cheaper per piece at roughly 25+ pieces of the same design.
+
+Q: Can I get one custom embroidered polo with my company logo?
+A: Yes. First-time logo: expect $25-50 digitizing fee + the per-piece embroidery cost ($14-22 on a mid-tier polo). Second and future orders of the same logo: just the per-piece embroidery cost, no setup.
+
+Q: Do you ship single shirts?
+A: Yes — USPS Priority Mail typically $8-12 within Texas, 2-3 days. UPS Ground for larger orders. Free pickup at our Twin Creeks Drive location in Livingston.
+
+## Embroidery vs Screen Printing: Which to Pick for Custom Apparel
+URL: https://lakesidethreadz.com/blog/embroidery-vs-screen-printing/
+
+Q: Is embroidery more expensive than screen printing?
+A: Per-piece at low quantities (1-25), they're often close or embroidery is cheaper (because screen has per-color setup fees). At 100+ pieces of a simple 1-2 color design, screen printing is cheaper per piece. The exact break-even depends on your design's stitch count and color count.
+
+Q: Does embroidery damage the fabric?
+A: No — embroidery is a sewing process, not a cutting process. The needle passes through the fabric; it doesn't tear. Properly digitized embroidery on quality fabric will outlast the garment.
+
+Q: Can you embroider on a t-shirt?
+A: Yes, but we usually recommend a polo, henley, or ringspun cotton tee for embroidery — the thicker fabric handles the stitch weight better. Light cotton tees can pucker around dense embroidery designs.
+
+Q: Does screen printing crack over time?
+A: Not if it's cured properly. Cracking usually means the print wasn't fully cured during production, or the shirt was washed hot and tumble-dried hot repeatedly. A properly cured screen print survives 50+ washes easily.
+
+Q: Which one lasts longer?
+A: Both last the life of the garment when done well. Embroidery has a slight edge because thread is a physical fiber bonded to the fabric, whereas screen-print ink is a surface layer. But either one typically outlasts the shirt.
+
+## What Is DTF Printing? Direct-to-Film Explained in Plain English
+URL: https://lakesidethreadz.com/blog/what-is-dtf-printing/
+
+Q: Is DTF printing the same as DTG (Direct-to-Garment)?
+A: No. DTG prints directly onto the fabric using a specialized inkjet — no film, no transfer. DTG is great for 100% cotton at low quantities but has limits (can't print white ink on dark garments as reliably, slower than DTF, higher equipment cost). DTF is a transfer process and works on more fabrics.
+
+Q: How long does a DTF print last on a shirt?
+A: A properly pressed DTF print lasts 40-60+ wash cycles with normal care. Wash cold, inside out, air dry if you want to maximize print lifespan. Most customers' shirts outlive the print; some report prints still looking sharp after 100+ washes.
+
+Q: Can DTF be done on dark shirts?
+A: Yes — that's actually one of its strongest use cases. The dense white underbase lets full-color designs pop on black, navy, or any dark fabric. Screen printing on dark shirts requires a separate white underbase print, which doubles the setup cost. DTF handles it in one pass.
+
+Q: What's the minimum order for DTF printing?
+A: No minimum. We'll run one shirt. One of the main reasons DTF exists is to make low-quantity custom apparel economic — we don't charge screen-setup fees because there are no screens.
+
+Q: Does DTF work on hats, bags, or jackets?
+A: Yes on canvas bags, nylon or cotton jackets, polyester performance wear, and heavier canvas pieces. For hats, DTF works on flat-panel foam fronts but is less common — embroidery or heat-transfer vinyl is more typical for hats.
+
+Q: How is DTF different from HTV (iron-on vinyl)?
+A: HTV is a single-color plastic vinyl cut into shapes and pressed on. It's cheap and durable but one color per layer and limited to flat shapes. DTF prints photographic full-color detail including fine text and gradients that vinyl can't reproduce.
+
 ## Custom Apparel for Businesses & Teams | Lakeside Ink & Threadz
 URL: https://lakesidethreadz.com/business-orders/
 
@@ -117,6 +195,27 @@ A: Use our online quote form, send us a message on Facebook or Instagram, or con
 
 Q: How do I know what something will cost before I commit?
 A: Use our free instant price estimator on the Contact page. Select your service and quantity and get a ballpark in under 60 seconds — no commitment required.
+
+## Booster Club Apparel for Texas Schools · Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/services/booster-club-apparel-texas/
+
+Q: Do we need the school's permission to use the mark?
+A: Yes — Texas districts require vendor approval for the licensed mark. Most of the time a simple email from the district's communications or athletics office is enough. We help booster presidents navigate this for first-time runs.
+
+Q: Can you set up an online ordering page for parents?
+A: Yes. Simple form-based page with piece/size/color/qty, no app downloads, no accounts. Parents pay the booster club (Venmo, check, or PayPal — your call) and we collect the orders centrally when the window closes.
+
+Q: What's the minimum order for a booster fundraiser?
+A: No minimum from us. Realistically, 25+ pieces across the run is where per-piece pricing becomes meaningful. We've run 12-piece varsity squad orders too.
+
+Q: How much can a booster run clear for our program?
+A: Depends on your markup and volume. Rough example: a 100-piece run of embroidered polos at $12 wholesale sold at $22 retail = $1,000 profit. Hoodies clear more per piece. Hats clear the most as a % markup because wholesale is $8-10 and retail is $18-25.
+
+Q: How long does a booster run take start to finish?
+A: Typical timeline: 1 week for setup + ordering page, 2-3 week ordering window, 10-14 days production after the window closes. Figure 5-6 weeks total from the day we start to the day the booster president has the boxes.
+
+Q: Do you do just athletic boosters, or band / FFA / Project Grad too?
+A: All of it. Band booster t-shirts, FFA chapter polos, Project Grad senior class fundraiser shirts, drill team warmups, cheer camp apparel, choir tour pieces. The process is identical regardless of which program.
 
 ## Ministry Apparel | Custom Church, VBS & Youth-Group Shirts
 URL: https://lakesidethreadz.com/services/church-ministry-apparel/
@@ -237,6 +336,66 @@ A: Yes — name and title embroidery is common on the right chest or sleeve. Run
 
 Q: Can you match my exact brand colors on the embroidery?
 A: Yes. Send us your brand guide with Pantone or hex codes and we’ll thread-match. We’ll show you the match on the proof before we stitch the run.
+
+## Custom Embroidery in Texas — No Minimums · Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/services/custom-embroidery-texas/
+
+Q: Do you serve all of Texas or only East Texas?
+A: We ship statewide. Most of our business is within 50 miles of Lake Livingston (Polk, San Jacinto, Walker, Trinity counties) where we can offer same-week pickup, but we regularly ship embroidery to Houston, Austin, Dallas, San Antonio, Lubbock, El Paso, and everywhere in between.
+
+Q: What's the minimum order for custom embroidery?
+A: None. We'll stitch one polo, one hat, or one hoodie if that's what you need. Tier pricing starts at 12 pieces and gets meaningfully better at 48 and 96.
+
+Q: Do you charge a digitizing fee for new logos?
+A: Not if you already have embroidery-ready art (DST, EMB, or clean vector). If we need to digitize from a raster logo, it's a one-time $25-50 depending on complexity, and we keep the digitized file on hand for every future reorder.
+
+Q: How long does a Texas embroidery order take?
+A: Standard is 5-10 business days from the time you approve the mockup. Rush orders can land in 2-3 days for an extra 25% — mention your deadline in the quote and Kristen will tell you what's realistic.
+
+Q: Can you match my corporate thread colors?
+A: Yes. We stock Madeira Polyneon and Isacord thread lines (3,000+ colors between them), and we'll pull PMS matches from either line. If you have a brand guide, send it with your art.
+
+Q: Do you do puff embroidery / 3D embroidery?
+A: Yes — we run foam-front puff embroidery on trucker hats and structured caps. Simple block letters and solid mascot shapes puff cleanly; thin lines and gradients don't translate well. Kristen will flag it if your logo isn't a puff candidate.
+
+## Custom Monogramming in Texas — Towels, Robes, Gifts · Lakeside
+URL: https://lakesidethreadz.com/services/custom-monogramming-texas/
+
+Q: What's the proper way to order a three-letter monogram?
+A: Give us first, middle, last. If it's the classic style (large center letter), that's traditionally First-LAST-Middle. For a married woman's monogram: her first initial, her married last name (center, large), her middle or maiden initial. Different families have different conventions — tell us what order you want and we'll do it exactly.
+
+Q: Can you monogram towels, robes, Yetis, or anything I bring in?
+A: Towels, robes, bags, jackets — yes, if you bring them in or ship them. Yetis + stainless tumblers we do via vinyl/UV print, not stitching. Leather and real silk get sent out to a specialist partner.
+
+Q: Do you have minimum orders for monogramming?
+A: No. We'll monogram a single piece. Classic monograms range $8-15 depending on letter height, stitch count, and whether we're adding a border or crest.
+
+Q: Can you match a specific color thread?
+A: Yes — send us a PMS number, a paint chip, or just a photo of the fabric and we'll pull the closest Madeira or Isacord match. We stock 3,000+ color options between the two lines.
+
+Q: Can you monogram for a wedding or baby shower on a tight timeline?
+A: Yes. Rush orders for events are routine for us — mention the event date in your quote and Kristen will confirm what's possible. 48-hour turnaround on small-batch monograms is common.
+
+## Custom Spirit Wear for Texas Schools · Lakeside Ink & Threadz
+URL: https://lakesidethreadz.com/services/custom-spirit-wear-texas/
+
+Q: What's the minimum order for school spirit wear?
+A: No fixed minimum. We've run 8-piece varsity squad orders and 400-piece homecoming runs. Tier pricing gets meaningfully better at 24, 48, and 96 pieces.
+
+Q: How do we handle the licensed-mark approval?
+A: Most Texas districts have a comms or athletics office that approves outside vendors to use the mark. We need written permission (an email is fine) before we print anything with a district logo. If you're not sure who to ask, we'll help you figure out — we've already done this with 10 Texas schools.
+
+Q: Can you run a booster-club store so parents can order individually?
+A: Yes. For a 2-4 week open window, we can set up a simple order form (Google Form or Linktree-style page) with piece/size/qty options, collect orders centrally, and run everything together after the window closes. Lower per-piece cost than a one-off, no inventory risk for the booster club.
+
+Q: Do you ship, or is it pickup only?
+A: Both. Statewide shipping or free pickup at our Twin Creeks Drive location in Livingston. For booster runs we usually batch-ship to the booster president and they distribute to families.
+
+Q: Can you do Project Grad or homecoming class-of shirts?
+A: Yes — class-of shirts, Project Grad fundraiser shirts, senior night jerseys, cheer camp runs. All of this is in our wheelhouse.
+
+Q: What about band, drill team, FFA, or other non-athletic groups?
+A: Same process — band shirts, drill team warmups, FFA jackets with monogrammed names, choir tour shirts. The mark approval and the ordering process are identical whether it's athletics or any other school program.
 
 ## Embroidered Bags & Totes Onalaska TX | L.I.T.
 URL: https://lakesidethreadz.com/services/embroidered-bags-totes/
